@@ -1,0 +1,19 @@
+
+state={
+	id=330
+	name="STATE_330"
+	provinces={
+		703 3448 6050 6275 9665 9673 9694 
+	}
+		history={
+		owner = KFC
+		add_core_of = KFC
+
+		buildings={
+			infrastructure = 4
+		}
+	}
+ state_category=town 
+ manpower=280188
+	buildings_max_level_factor=1.000
+}

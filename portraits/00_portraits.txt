@@ -1,0 +1,795 @@
+default = {
+	navy = {
+		male = {
+			GFX_Portrait_Generic_Navy_Admiral_Male_1
+			GFX_Portrait_Generic_Navy_Admiral_Male_2
+			GFX_Portrait_Generic_Navy_Admiral_Male_3
+			GFX_Portrait_Generic_Navy_Admiral_Male_4
+		}
+		female = {
+			GFX_Portrait_Generic_Navy_Admiral_Female_1
+		}
+	}
+	
+	army = {
+		male = {
+			"GFX_Portrait_Generic_Military_General_1"
+			"GFX_Portrait_Generic_Military_General_2"
+			"GFX_Portrait_Generic_Military_General_3"
+			"GFX_Portrait_Generic_Military_General_4"
+			"GFX_Portrait_Generic_Military_General_5"
+			"GFX_Portrait_Generic_Military_General_6"
+			"GFX_Portrait_Generic_Military_General_7"
+			"GFX_Portrait_Generic_Military_General_8"
+			"GFX_Portrait_Generic_Military_General_9"
+			"GFX_Portrait_Generic_Military_General_10"
+			"GFX_Portrait_Generic_Military_General_11"
+			"GFX_Portrait_Generic_Military_General_12"
+			"GFX_Portrait_Generic_Military_General_13"
+			"GFX_Portrait_Generic_Military_General_14"
+		}
+		female = {
+			"GFX_Portrait_Generic_Military_General_1_female"
+		    "GFX_Portrait_Generic_Military_General_2_female"
+		    "GFX_Portrait_Generic_Military_General_3_female"
+		}
+	}
+
+	operative = {
+		male = {
+			"GFX_Portrait_Generic_Spy_Guy"
+			"GFX_Portrait_Generic_Spy_Guy_2"
+		}
+		female = {
+			"GFX_Portrait_Generic_Spy_Girl"
+			"GFX_Portrait_Generic_Spy_Girl_2"
+		}
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"GFX_Portrait_Generic_Military_General_1"
+			"GFX_Portrait_Generic_Military_General_2"
+			"GFX_Portrait_Generic_Military_General_3"
+			"GFX_Portrait_Generic_Military_General_4"
+			"GFX_Portrait_Generic_Military_General_5"
+			"GFX_Portrait_Generic_Military_General_6"
+			"GFX_Portrait_Generic_Military_General_7"
+			"GFX_Portrait_Generic_Military_General_8"
+			"GFX_Portrait_Generic_Military_General_9"
+			"GFX_Portrait_Generic_Military_General_10"
+			"GFX_Portrait_Generic_Military_General_11"
+			"GFX_Portrait_Generic_Military_General_12"
+			"GFX_Portrait_Generic_Military_General_13"
+			"GFX_Portrait_Generic_Military_General_14"
+
+		}
+		female = {
+			"GFX_Portrait_Generic_Military_General_1_female"
+			"GFX_Portrait_Generic_Military_General_2_female"
+			"GFX_Portrait_Generic_Military_General_3_female"
+		}
+	}
+	
+	navy = {
+		male = {
+			GFX_Portrait_Generic_Navy_Admiral_Male_1
+			GFX_Portrait_Generic_Navy_Admiral_Male_2
+			GFX_Portrait_Generic_Navy_Admiral_Male_3
+			GFX_Portrait_Generic_Navy_Admiral_Male_4
+		}
+		female = {
+			GFX_Portrait_Generic_Navy_Admiral_Female_1
+		}
+	}
+	political = {
+		autocratic = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Autocratic_1.dds"
+					"gfx/leaders/Generic/Generic_Autocratic_2.dds"
+			}
+		}
+		authoritarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_2.dds"
+			}
+		}
+		libertarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_3.tga"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_4.dds"
+			}
+		}
+		libertarian_right = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_right_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_3.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_4.tga"
+			}
+		}
+		democrat = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Democrat_1.dds"
+					"gfx/leaders/Generic/Generic_Democrat_2.dds"
+			}
+		}
+		republican = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Republican_1.dds"
+					"gfx/leaders/Generic/Generic_Republican_2.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"GFX_Portrait_Generic_Military_General_1"
+			"GFX_Portrait_Generic_Military_General_2"
+			"GFX_Portrait_Generic_Military_General_3"
+			"GFX_Portrait_Generic_Military_General_4"
+			"GFX_Portrait_Generic_Military_General_5"
+			"GFX_Portrait_Generic_Military_General_6"
+			"GFX_Portrait_Generic_Military_General_7"
+			"GFX_Portrait_Generic_Military_General_8"
+			"GFX_Portrait_Generic_Military_General_9"
+			"GFX_Portrait_Generic_Military_General_10"
+			"GFX_Portrait_Generic_Military_General_11"
+			"GFX_Portrait_Generic_Military_General_12"
+			"GFX_Portrait_Generic_Military_General_13"
+			"GFX_Portrait_Generic_Military_General_14"
+
+		}
+		female = {
+			"GFX_Portrait_Generic_Military_General_1_female"
+			"GFX_Portrait_Generic_Military_General_2_female"
+			"GFX_Portrait_Generic_Military_General_3_female"
+		}
+	}
+	
+	navy = {
+		male = {
+			GFX_Portrait_Generic_Navy_Admiral_Male_1
+			GFX_Portrait_Generic_Navy_Admiral_Male_2
+			GFX_Portrait_Generic_Navy_Admiral_Male_3
+			GFX_Portrait_Generic_Navy_Admiral_Male_4
+		}
+		female = {
+			GFX_Portrait_Generic_Navy_Admiral_Female_1
+		}
+	}
+	political = {
+		autocratic = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Autocratic_1.dds"
+					"gfx/leaders/Generic/Generic_Autocratic_2.dds"
+			}
+		}
+		authoritarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_2.dds"
+			}
+		}
+		libertarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_3.tga"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_4.dds"
+			}
+		}
+		libertarian_right = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_right_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_3.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_4.tga"
+			}
+		}
+		democrat = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Democrat_1.dds"
+					"gfx/leaders/Generic/Generic_Democrat_2.dds"
+			}
+		}
+		republican = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Republican_1.dds"
+					"gfx/leaders/Generic/Generic_Republican_2.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"GFX_Portrait_Generic_Military_General_1"
+			"GFX_Portrait_Generic_Military_General_2"
+			"GFX_Portrait_Generic_Military_General_3"
+			"GFX_Portrait_Generic_Military_General_4"
+			"GFX_Portrait_Generic_Military_General_5"
+			"GFX_Portrait_Generic_Military_General_6"
+			"GFX_Portrait_Generic_Military_General_7"
+			"GFX_Portrait_Generic_Military_General_8"
+			"GFX_Portrait_Generic_Military_General_9"
+			"GFX_Portrait_Generic_Military_General_10"
+			"GFX_Portrait_Generic_Military_General_11"
+			"GFX_Portrait_Generic_Military_General_12"
+			"GFX_Portrait_Generic_Military_General_13"
+			"GFX_Portrait_Generic_Military_General_14"
+
+		}
+		female = {
+			"GFX_Portrait_Generic_Military_General_1_female"
+			"GFX_Portrait_Generic_Military_General_2_female"
+			"GFX_Portrait_Generic_Military_General_3_female"
+		}
+	}
+	
+	navy = {
+		male = {
+			GFX_Portrait_Generic_Navy_Admiral_Male_1
+			GFX_Portrait_Generic_Navy_Admiral_Male_2
+			GFX_Portrait_Generic_Navy_Admiral_Male_3
+			GFX_Portrait_Generic_Navy_Admiral_Male_4
+		}
+		female = {
+			GFX_Portrait_Generic_Navy_Admiral_Female_1
+		}
+	}
+	political = {
+		autocratic = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Autocratic_1.dds"
+					"gfx/leaders/Generic/Generic_Autocratic_2.dds"
+			}
+		}
+		authoritarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_2.dds"
+			}
+		}
+		libertarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_3.tga"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_4.dds"
+			}
+		}
+		libertarian_right = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_right_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_3.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_4.tga"
+			}
+		}
+		democrat = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Democrat_1.dds"
+					"gfx/leaders/Generic/Generic_Democrat_2.dds"
+			}
+		}
+		republican = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Republican_1.dds"
+					"gfx/leaders/Generic/Generic_Republican_2.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"GFX_Portrait_Generic_Military_General_1"
+			"GFX_Portrait_Generic_Military_General_2"
+			"GFX_Portrait_Generic_Military_General_3"
+			"GFX_Portrait_Generic_Military_General_4"
+			"GFX_Portrait_Generic_Military_General_5"
+			"GFX_Portrait_Generic_Military_General_6"
+			"GFX_Portrait_Generic_Military_General_7"
+			"GFX_Portrait_Generic_Military_General_8"
+			"GFX_Portrait_Generic_Military_General_9"
+			"GFX_Portrait_Generic_Military_General_10"
+			"GFX_Portrait_Generic_Military_General_11"
+			"GFX_Portrait_Generic_Military_General_12"
+			"GFX_Portrait_Generic_Military_General_13"
+			"GFX_Portrait_Generic_Military_General_14"
+
+		}
+		female = {
+			"GFX_Portrait_Generic_Military_General_1_female"
+			"GFX_Portrait_Generic_Military_General_2_female"
+			"GFX_Portrait_Generic_Military_General_3_female"
+		}
+	}
+	
+	navy = {
+		male = {
+			GFX_Portrait_Generic_Navy_Admiral_Male_1
+			GFX_Portrait_Generic_Navy_Admiral_Male_2
+			GFX_Portrait_Generic_Navy_Admiral_Male_3
+			GFX_Portrait_Generic_Navy_Admiral_Male_4
+		}
+		female = {
+			GFX_Portrait_Generic_Navy_Admiral_Female_1
+		}
+	}
+	political = {
+		autocratic = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Autocratic_1.dds"
+					"gfx/leaders/Generic/Generic_Autocratic_2.dds"
+			}
+		}
+		authoritarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_2.dds"
+			}
+		}
+		libertarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_3.tga"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_4.dds"
+			}
+		}
+		libertarian_right = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_right_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_3.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_4.tga"
+			}
+		}
+		democrat = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Democrat_1.dds"
+					"gfx/leaders/Generic/Generic_Democrat_2.dds"
+			}
+		}
+		republican = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Republican_1.dds"
+					"gfx/leaders/Generic/Generic_Republican_2.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"GFX_Portrait_Generic_Military_General_1"
+			"GFX_Portrait_Generic_Military_General_2"
+			"GFX_Portrait_Generic_Military_General_3"
+			"GFX_Portrait_Generic_Military_General_4"
+			"GFX_Portrait_Generic_Military_General_5"
+			"GFX_Portrait_Generic_Military_General_6"
+			"GFX_Portrait_Generic_Military_General_7"
+			"GFX_Portrait_Generic_Military_General_8"
+			"GFX_Portrait_Generic_Military_General_9"
+			"GFX_Portrait_Generic_Military_General_10"
+			"GFX_Portrait_Generic_Military_General_11"
+			"GFX_Portrait_Generic_Military_General_12"
+			"GFX_Portrait_Generic_Military_General_13"
+			"GFX_Portrait_Generic_Military_General_14"
+
+		}
+		female = {
+			"GFX_Portrait_Generic_Military_General_1_female"
+			"GFX_Portrait_Generic_Military_General_2_female"
+			"GFX_Portrait_Generic_Military_General_3_female"
+		}
+	}
+	
+	navy = {
+		male = {
+			GFX_Portrait_Generic_Navy_Admiral_Male_1
+			GFX_Portrait_Generic_Navy_Admiral_Male_2
+			GFX_Portrait_Generic_Navy_Admiral_Male_3
+			GFX_Portrait_Generic_Navy_Admiral_Male_4
+		}
+		female = {
+			GFX_Portrait_Generic_Navy_Admiral_Female_1
+		}
+	}
+	political = {
+		autocratic = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Autocratic_1.dds"
+					"gfx/leaders/Generic/Generic_Autocratic_2.dds"
+			}
+		}
+		authoritarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_2.dds"
+			}
+		}
+		libertarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_3.tga"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_4.dds"
+			}
+		}
+		libertarian_right = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_right_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_3.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_4.tga"
+			}
+		}
+		democrat = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Democrat_1.dds"
+					"gfx/leaders/Generic/Generic_Democrat_2.dds"
+			}
+		}
+		republican = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Republican_1.dds"
+					"gfx/leaders/Generic/Generic_Republican_2.dds"
+			}
+		}
+	}
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"GFX_Portrait_Generic_Military_General_1"
+			"GFX_Portrait_Generic_Military_General_2"
+			"GFX_Portrait_Generic_Military_General_3"
+			"GFX_Portrait_Generic_Military_General_4"
+			"GFX_Portrait_Generic_Military_General_5"
+			"GFX_Portrait_Generic_Military_General_6"
+			"GFX_Portrait_Generic_Military_General_7"
+			"GFX_Portrait_Generic_Military_General_8"
+			"GFX_Portrait_Generic_Military_General_9"
+			"GFX_Portrait_Generic_Military_General_10"
+			"GFX_Portrait_Generic_Military_General_11"
+			"GFX_Portrait_Generic_Military_General_12"
+			"GFX_Portrait_Generic_Military_General_13"
+			"GFX_Portrait_Generic_Military_General_14"
+
+		}
+		female = {
+			"GFX_Portrait_Generic_Military_General_1_female"
+			"GFX_Portrait_Generic_Military_General_2_female"
+			"GFX_Portrait_Generic_Military_General_3_female"
+		}
+	}
+	
+	navy = {
+		male = {
+			GFX_Portrait_Generic_Navy_Admiral_Male_1
+			GFX_Portrait_Generic_Navy_Admiral_Male_2
+			GFX_Portrait_Generic_Navy_Admiral_Male_3
+			GFX_Portrait_Generic_Navy_Admiral_Male_4
+		}
+		female = {
+			GFX_Portrait_Generic_Navy_Admiral_Female_1
+		}
+	}
+	political = {
+		autocratic = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Autocratic_1.dds"
+					"gfx/leaders/Generic/Generic_Autocratic_2.dds"
+			}
+		}
+		authoritarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Authoritarian_Left_2.dds"
+			}
+		}
+		libertarian_left = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_Left_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_3.tga"
+					"gfx/leaders/Generic/Generic_Libertarian_Left_4.dds"
+			}
+		}
+		libertarian_right = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Libertarian_right_1.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_2.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_3.dds"
+					"gfx/leaders/Generic/Generic_Libertarian_right_4.tga"
+			}
+		}
+		democrat = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Democrat_1.dds"
+					"gfx/leaders/Generic/Generic_Democrat_2.dds"
+			}
+		}
+		republican = {
+				male = { 
+					"gfx/leaders/Generic/Generic_Republican_1.dds"
+					"gfx/leaders/Generic/Generic_Republican_2.dds"
+			}
+		}
+	}
+
+}
+
+# Zion
+ZIO = {
+	army = {
+		male = {
+			"GFX_Portrait_Zion_Generic_land_1"
+			"GFX_Portrait_Zion_Generic_land_2"
+			"GFX_Portrait_Zion_Generic_land_3"
+			"GFX_Portrait_Zion_Generic_land_4"
+			"GFX_Portrait_Zion_Generic_land_5"
+			"GFX_Portrait_Zion_Generic_land_6"
+			"GFX_Portrait_Zion_Generic_land_7"
+			"GFX_Portrait_Zion_Generic_land_8"
+		}
+	}
+}
+
+#CSA
+CSA = {
+	army = {
+		male = {
+			"GFX_Portrait_Dixie_Generic_land_1"
+			"GFX_Portrait_Dixie_Generic_land_2"
+			"GFX_Portrait_Dixie_Generic_land_3"
+			"GFX_Portrait_Dixie_Generic_land_4"
+			"GFX_Portrait_Dixie_Generic_land_5"
+			"GFX_Portrait_Dixie_Generic_land_6"
+			"GFX_Portrait_Dixie_Generic_land_7"
+			"GFX_Portrait_Dixie_Generic_land_8"
+			"GFX_Portrait_Dixie_Generic_land_9"
+			"GFX_Portrait_Dixie_Generic_land_10"
+			"GFX_Portrait_CSB_Generic_land_1"
+			"GFX_Portrait_CSB_Generic_land_2"
+			"GFX_Portrait_CSB_Generic_land_3"
+			"GFX_Portrait_CSB_Generic_land_4"
+			"GFX_Portrait_CSB_Generic_land_5"
+			"GFX_Portrait_CSB_Generic_land_6"
+			"GFX_Portrait_CSB_Generic_land_7"
+			"GFX_Portrait_CSB_Generic_land_8"
+			"GFX_Portrait_CSB_Generic_land_9"
+			"GFX_Portrait_CSB_Generic_land_10"
+			"GFX_Portrait_CSB_Generic_land_11"
+			"GFX_Portrait_CSB_Generic_land_12"
+			"GFX_Portrait_CSB_Generic_land_13"
+			"GFX_Portrait_Afrika_Generic_land_1"
+			"GFX_Portrait_Afrika_Generic_land_3"
+			"GFX_Portrait_Afrika_Generic_land_4"
+			"GFX_Portrait_Afrika_Generic_land_5"
+			"GFX_Portrait_Afrika_Generic_land_6"
+			"GFX_Portrait_Afrika_Generic_land_7"
+			"GFX_Portrait_Afrika_Generic_land_8"
+			"GFX_Portrait_Afrika_Generic_land_9"
+			"GFX_Portrait_Afrika_Generic_land_10"
+			"GFX_Portrait_Afrika_Generic_land_11"
+			"GFX_Portrait_Afrika_Generic_land_12"
+			"GFX_Portrait_Afrika_Generic_land_13"
+			"GFX_Portrait_Afrika_Generic_land_14"
+			"GFX_Portrait_Afrika_Generic_land_15"
+			"GFX_Portrait_Afrika_Generic_land_16"
+			"GFX_Portrait_Afrika_Generic_land_17"
+			"GFX_Portrait_Afrika_Generic_land_18"
+			"GFX_Portrait_Afrika_Generic_land_19"
+			"GFX_Portrait_Afrika_Generic_land_20"
+			"GFX_Portrait_Afrika_Generic_land_21"
+			"GFX_Portrait_Klan_Generic_land_1"
+			"GFX_Portrait_Klan_Generic_land_2"
+			"GFX_Portrait_Klan_Generic_land_3"
+			"GFX_Portrait_Klan_Generic_land_4"
+			"GFX_Portrait_Klan_Generic_land_5"
+			"GFX_Portrait_Klan_Generic_land_6"
+			"GFX_Portrait_Klan_Generic_land_7"
+			"GFX_Portrait_Klan_Generic_land_8"
+			"GFX_Portrait_Klan_Generic_land_9"
+			"GFX_Portrait_Klan_Generic_land_10"
+			"GFX_Portrait_Klan_Generic_land_11"
+			"GFX_Portrait_Klan_Generic_land_12"
+			"GFX_Portrait_Klan_Generic_land_13"
+			"GFX_Portrait_Klan_Generic_land_14"
+			"GFX_Portrait_Klan_Generic_land_15"
+			"GFX_Portrait_Klan_Generic_land_16"
+			"GFX_Portrait_Klan_Generic_land_17"
+			"GFX_Portrait_Klan_Generic_land_18"
+			"GFX_Portrait_Klan_Generic_land_19"
+			"GFX_Portrait_Klan_Generic_land_20"
+			"GFX_Portrait_Klan_Generic_land_21"
+			"GFX_Portrait_Klan_Generic_land_22"
+			"GFX_Portrait_Arkansas_Generic_land_1"
+			"GFX_Portrait_Arkansas_Generic_land_2"
+			"GFX_Portrait_Arkansas_Generic_land_3"
+			"GFX_Portrait_Arkansas_Generic_land_4"
+			"GFX_Portrait_Arkansas_Generic_land_5"
+			"GFX_Portrait_Arkansas_Generic_land_6"
+			"GFX_Portrait_Arkansas_Generic_land_7"
+			"GFX_Portrait_Arkansas_Generic_land_8"
+			"GFX_Portrait_Arkansas_Generic_land_9"
+			"GFX_Portrait_Arkansas_Generic_land_10"
+			"GFX_Portrait_Arkansas_Generic_land_11"
+			"GFX_Portrait_Arkansas_Generic_land_12"
+			"GFX_Portrait_Arkansas_Generic_land_13"
+			"GFX_Portrait_Arkansas_Generic_land_14"
+			"GFX_Portrait_Arkansas_Generic_land_15"
+			"GFX_Portrait_Arkansas_Generic_land_16"
+			"GFX_Portrait_Arkansas_Generic_land_17"
+			"GFX_Portrait_Arkansas_Generic_land_18"
+		}
+		female = {
+			"GFX_Portrait_Afrika_Generic_land_2"
+			"GFX_Portrait_Arkansas_Generic_land_Female_1"
+		}
+	}
+}
+
+# TEN
+APA = {
+	army = {
+		male = {
+			"GFX_Portrait_Dixie_Generic_land_10"
+			"GFX_Portrait_Dixie_Generic_land_9"
+			"GFX_Portrait_Dixie_Generic_land_6"
+			"GFX_Portrait_Dixie_Generic_land_5"
+			"GFX_Portrait_Arkansas_Generic_land_15"
+		}
+	}
+}
+
+#CSB
+CSB = {
+	army = {
+		male = {
+			"GFX_Portrait_CSB_Generic_land_1"
+			"GFX_Portrait_CSB_Generic_land_2"
+			"GFX_Portrait_CSB_Generic_land_3"
+			"GFX_Portrait_CSB_Generic_land_4"
+			"GFX_Portrait_CSB_Generic_land_5"
+			"GFX_Portrait_CSB_Generic_land_6"
+			"GFX_Portrait_CSB_Generic_land_7"
+			"GFX_Portrait_CSB_Generic_land_8"
+			"GFX_Portrait_CSB_Generic_land_9"
+			"GFX_Portrait_CSB_Generic_land_10"
+			"GFX_Portrait_CSB_Generic_land_11"
+			"GFX_Portrait_CSB_Generic_land_12"
+			"GFX_Portrait_CSB_Generic_land_13"
+		}
+	}
+}
+
+#Afrika
+AFR = {
+	army = {
+		male = {
+			"GFX_Portrait_Afrika_Generic_land_1"
+			"GFX_Portrait_Afrika_Generic_land_3"
+			"GFX_Portrait_Afrika_Generic_land_4"
+			"GFX_Portrait_Afrika_Generic_land_5"
+			"GFX_Portrait_Afrika_Generic_land_6"
+			"GFX_Portrait_Afrika_Generic_land_7"
+			"GFX_Portrait_Afrika_Generic_land_8"
+			"GFX_Portrait_Afrika_Generic_land_9"
+			"GFX_Portrait_Afrika_Generic_land_10"
+			"GFX_Portrait_Afrika_Generic_land_11"
+			"GFX_Portrait_Afrika_Generic_land_12"
+			"GFX_Portrait_Afrika_Generic_land_13"
+			"GFX_Portrait_Afrika_Generic_land_14"
+			"GFX_Portrait_Afrika_Generic_land_15"
+			"GFX_Portrait_Afrika_Generic_land_16"
+			"GFX_Portrait_Afrika_Generic_land_17"
+			"GFX_Portrait_Afrika_Generic_land_18"
+			"GFX_Portrait_Afrika_Generic_land_19"
+			"GFX_Portrait_Afrika_Generic_land_20"
+			"GFX_Portrait_Afrika_Generic_land_21"
+		}
+		female = {
+			"GFX_Portrait_Afrika_Generic_land_2"
+		}
+	}
+}
+
+#Klan
+KKK = {
+	army = {
+		male = {
+			"GFX_Portrait_Klan_Generic_land_1"
+			"GFX_Portrait_Klan_Generic_land_2"
+			"GFX_Portrait_Klan_Generic_land_3"
+			"GFX_Portrait_Klan_Generic_land_4"
+			"GFX_Portrait_Klan_Generic_land_5"
+			"GFX_Portrait_Klan_Generic_land_6"
+			"GFX_Portrait_Klan_Generic_land_7"
+			"GFX_Portrait_Klan_Generic_land_8"
+			"GFX_Portrait_Klan_Generic_land_9"
+			"GFX_Portrait_Klan_Generic_land_10"
+			"GFX_Portrait_Klan_Generic_land_11"
+			"GFX_Portrait_Klan_Generic_land_12"
+			"GFX_Portrait_Klan_Generic_land_13"
+			"GFX_Portrait_Klan_Generic_land_14"
+			"GFX_Portrait_Klan_Generic_land_15"
+			"GFX_Portrait_Klan_Generic_land_16"
+			"GFX_Portrait_Klan_Generic_land_17"
+			"GFX_Portrait_Klan_Generic_land_18"
+			"GFX_Portrait_Klan_Generic_land_19"
+			"GFX_Portrait_Klan_Generic_land_20"
+			"GFX_Portrait_Klan_Generic_land_21"
+			"GFX_Portrait_Klan_Generic_land_22"
+		}
+	}
+}
+
+#Arkansas
+ARK = {
+	army = {
+		male = {
+			"GFX_Portrait_Arkansas_Generic_land_1"
+			"GFX_Portrait_Arkansas_Generic_land_2"
+			"GFX_Portrait_Arkansas_Generic_land_3"
+			"GFX_Portrait_Arkansas_Generic_land_4"
+			"GFX_Portrait_Arkansas_Generic_land_5"
+			"GFX_Portrait_Arkansas_Generic_land_6"
+			"GFX_Portrait_Arkansas_Generic_land_7"
+			"GFX_Portrait_Arkansas_Generic_land_8"
+			"GFX_Portrait_Arkansas_Generic_land_9"
+			"GFX_Portrait_Arkansas_Generic_land_10"
+			"GFX_Portrait_Arkansas_Generic_land_11"
+			"GFX_Portrait_Arkansas_Generic_land_12"
+			"GFX_Portrait_Arkansas_Generic_land_13"
+			"GFX_Portrait_Arkansas_Generic_land_14"
+			"GFX_Portrait_Arkansas_Generic_land_15"
+			"GFX_Portrait_Arkansas_Generic_land_16"
+			"GFX_Portrait_Arkansas_Generic_land_17"
+			"GFX_Portrait_Arkansas_Generic_land_18"
+		}
+		female = {
+			"GFX_Portrait_Arkansas_Generic_land_Female_1"
+		}
+	}
+}
+
+SKY = {
+    army = {
+		male = {
+			"GFX_Portrait_SKY_Generic_land_1"
+			"GFX_Portrait_SKY_Generic_land_2"
+			"GFX_Portrait_SKY_Generic_land_3"
+			"GFX_Portrait_SKY_Generic_land_4"
+		}
+	}
+}
+
+

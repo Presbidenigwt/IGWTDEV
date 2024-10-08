@@ -1,0 +1,42 @@
+
+state={
+	id=442
+	name="STATE_442"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = DAK
+		victory_points = {
+			5524 1 
+		}
+		victory_points = {
+			383 1 
+		}
+		victory_points = {
+			5345 2 
+		}
+		victory_points = {
+			4938 1 
+		}
+		victory_points = {
+			2365 1 
+		}
+		victory_points = {
+			2163 1 
+		}
+		buildings = {
+			infrastructure = 5
+			radar_station = 3
+
+		}
+
+	}
+
+	provinces={
+		274 383 652 825 1121 1259 1594 2163 2365 3548 4031 4121 4142 4938 5345 5524 6044 7678 7810 7817 7836 8272 
+	}
+	manpower=340540
+	buildings_max_level_factor=1.000
+	state_category=town
+}

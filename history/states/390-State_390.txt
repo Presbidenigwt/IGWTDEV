@@ -1,0 +1,32 @@
+
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		2942 11535 11548 11556 12193 12194 
+	}
+		history={
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+			infrastructure = 3
+			12194 = {
+				naval_base = 2
+			}
+			11548 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			12194  2
+		}
+		victory_points = {
+			11548  4
+		}
+	}
+ 
+ 
+ state_category=town 
+ manpower=42943
+	buildings_max_level_factor=1.000
+}

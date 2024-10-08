@@ -1,0 +1,25 @@
+state={
+	id=135
+	name="STATE_135"
+	provinces={
+		7239 
+	}
+		history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = QUE
+		add_core_of = MRT
+
+		buildings = {
+			infrastructure = 2
+
+			7239 = {
+				naval_base = 1
+			}
+		}
+	}
+ 
+state_category=tiny_island 
+ manpower=12781
+	buildings_max_level_factor=1.000
+}

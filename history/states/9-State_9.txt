@@ -1,0 +1,33 @@
+
+state={
+	id=9
+	name="STATE_9"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = ARY
+		victory_points = {
+			1431 20 
+		}
+		victory_points = {
+			2979 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		108 231 785 975 1091 1408 1426 2979 5692 6516 11972 19335 19340 19341 19358 19363 19364 19368 19373 19374 19376 19377 19382 19385 19391 19395 
+	}
+	manpower=21781
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

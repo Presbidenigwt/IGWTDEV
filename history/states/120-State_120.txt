@@ -1,0 +1,26 @@
+
+state={
+	id=120
+	name="STATE_120"
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = ALT
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		1431 1710 4244 4701 
+	}
+	manpower=834678
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

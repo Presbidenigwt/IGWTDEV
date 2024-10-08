@@ -1,0 +1,23 @@
+state={
+	id=524
+	name="STATE_524"
+	provinces={
+		12208 
+	}
+	history={
+		owner = ENG
+		add_core_of = ENG
+		buildings={
+			infrastructure = 3
+			12208 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			12208 3
+		}
+	}
+	manpower=14731
+	buildings_max_level_factor=1.000
+	state_category=town
+}

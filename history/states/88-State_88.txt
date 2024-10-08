@@ -1,0 +1,40 @@
+
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		1510 1548 1678 1862 1886 1972 2105 2232 2723 2788 3374 3677 4726 5674 6407 8269 8280 8297 8304 8310 8318 8329 8381 8382 8385 8394 8400 8408 8414 
+	}
+	history={
+		owner = CAS
+		add_core_of = CAS
+		add_core_of = LIB
+
+		victory_points = {
+			1862 2 #Grants Pass
+		}
+		victory_points = {
+			8310 4 #Medford
+		}
+		victory_points = {
+			2723 1 #Ashland
+		}
+		victory_points = {
+			8394 1 #Klamath Falls
+		}
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+			1510 = {
+				naval_base = 1
+			}
+		}
+	}
+ 
+ 
+ state_category=town
+ manpower=245800
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=304
+	name="STATE_304"
+	provinces={
+		9509 9515 9551 
+	}
+
+	resources={
+		rubber = 2
+	}
+
+		history={
+		buildings = {
+			infrastructure = 9
+			arms_factory = 4
+			industrial_complex = 4
+			anti_air_building = 3
+			air_base = 7
+			dockyard = 2
+			9509 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			9509 30
+		}
+		victory_points = {
+			9515 10
+		}
+		owner = PRA
+		add_core_of = PRA
+
+	}
+ 
+ 
+ state_category=large_city
+ manpower=1598046 #-20000 Turkish march
+	buildings_max_level_factor=1.000
+}

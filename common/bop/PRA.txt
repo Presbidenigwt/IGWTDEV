@@ -1,0 +1,48 @@
+
+PRA_balance = {
+    initial_value = 0.25
+    left_side = sanders
+    right_side = la_riva
+    decision_category = PRA_b
+    range = {
+        id = mid_range
+        min = -0.1
+        max = 0.1
+        modifier = {
+			stability_weekly = 0.3
+			
+        }
+        rule = {
+            can_create_faction = yes
+        }
+    }
+
+    side = {
+        id = sanders
+        icon = GFX_idea_generic_agrarian_society
+        range = {
+            id = left_side_range
+            min = -1
+            max = -0.1
+            modifier = {
+                moderate_socialism_drift = 0.02
+				stability_weekly = 0.1
+				
+            }
+
+        }
+    }
+    side = {
+        id = la_riva
+        icon = GFX_idea_generic_degauss_ship_hulls
+        range = {
+            id = right_side_range
+            min = 0.1
+            max = 1
+            modifier = {
+                war_support_weekly = 0.2
+				communism_drift = 0.02
+            }
+        }
+    }
+}

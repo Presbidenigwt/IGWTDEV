@@ -1,0 +1,22 @@
+state={
+	id=438
+	name="The_Forbidden_Isle"
+	provinces={
+		12218 
+	}
+	history={
+		owner = PAC
+		add_core_of = PAC
+		buildings = {
+			infrastructure = 2
+			12218 = {
+				naval_base = 1
+			}
+		}
+	}	
+ 
+ 
+ state_category=tiny_island
+ manpower=1000
+	buildings_max_level_factor=1.000
+}

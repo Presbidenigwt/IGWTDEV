@@ -1,0 +1,24 @@
+
+state={
+	id=486
+	name="STATE_486"
+	provinces={
+		510
+	}
+		history={
+		owner = SIN
+		add_core_of = SIN
+		victory_points = {
+			510 1 #Florence ADMAX
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+
+	}
+ 
+ state_category=pastoral 
+ manpower=361
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,35 @@
+focus_tree = {
+	id = la_riva
+	country = {
+	factor = 0
+    }
+    default = no
+    focus = {
+		id = good_morning
+		icon = focus_generic_red_dawn
+		cost = 5.00
+		x = 10
+		y = 0
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = and_goodnight
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 10
+		y = 2
+		prerequisite = {
+			focus = good_morning
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+	
+	}
+	

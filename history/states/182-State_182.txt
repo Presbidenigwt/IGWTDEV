@@ -1,0 +1,20 @@
+state={
+	id=182
+	name="STATE_182"
+	provinces={
+		12131 
+	}
+		history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = MRT
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+ state_category=tiny_island
+ manpower=5
+	buildings_max_level_factor=1.000
+}

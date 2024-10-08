@@ -1,0 +1,39 @@
+
+state={
+	id=425
+	name="STATE_425"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		add_core_of = IDA
+		add_core_of = LAK
+		add_core_of = ABS
+		
+		victory_points = {
+			7881 5 
+		}
+		victory_points = {
+			7386 1 
+		}
+		victory_points = {
+			1567 1 
+		}
+		victory_points = {
+			1339 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		310 670 793 802 1497 1567 2503 3393 3488 5598 7881 7942 7976 8127 8214 8311 8449 
+	}
+	manpower=93703
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

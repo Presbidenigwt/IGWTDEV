@@ -1,0 +1,30 @@
+
+state={
+	id=369
+	name="STATE_369"
+	provinces={
+		200 11876 
+	}
+	history={
+		owner = BLZ
+		add_core_of = BLZ
+		buildings = {
+			infrastructure = 5
+			11876 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			11876 8
+		}
+		victory_points = {
+			200 12
+		}
+	}
+ 
+ 
+ 
+ state_category=town 
+ manpower=214118
+	buildings_max_level_factor=1.000
+}

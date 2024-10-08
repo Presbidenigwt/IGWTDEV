@@ -1,0 +1,735 @@
+spriteTypes = {
+	
+	### Portrait GFX ###
+	spriteType = {
+        name = "GFX_portrait_Sofia_LaRocca"
+        texturefile = "gfx/leaders/IDA/Sofia_LaRocca.dds"
+    }
+	spriteType = {
+        name = "GFX_portrait_Beau_Maier"
+        texturefile = "gfx/leaders/IDA/Beau_Maier.dds"
+    }
+	spriteType = {
+        name = "GFX_portrait_John_Earle_Sullivan_Militant"
+        texturefile = "gfx/leaders/IDA/John_Earle_Sullivan_Militant.png"
+    }
+	
+	### National Spirits ###
+	# Starting Spirits #
+	spriteType = {
+        name = "GFX_idea_IDA_Redoubt"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Redoubt.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Lawlessness"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Total_Anarchy.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Army_Reform_1"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Army_Reform_1.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Dependent_Industry_1"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Dependent_Industry_1.dds"
+    }
+	
+	# Gained Spirits #
+	spriteType = {
+        name = "GFX_idea_Army_Of_The_Redoubt"
+        texturefile = "gfx/interface/ideas/IDA/Army_Of_The_Redoubt.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Brown"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Brown.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Yellow"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Yellow.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Orange"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Orange.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_White"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_White.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Indigo"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Indigo.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Crimson"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Crimson.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Green"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Green.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Violet"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Violet.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Montana_Profits"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Montana_Profits.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Utah_Profits"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Utah_Profits.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Interstate_Construction"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Interstate_Construction.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Masters_Of_The_West_Spirit"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Masters_Of_The_West_Spirit.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Bastion_Of_Democracy_Spirit"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Bastion_Of_Democracy_Spirit.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Saints_Ride_Out_Spirit"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Saints_Ride_Out.png"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_The_Duumvirate"
+        texturefile = "gfx/interface/ideas/IDA/IDA_The_Duumvirate.png"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_The_Duumvirate_Collapse"
+        texturefile = "gfx/interface/ideas/IDA/IDA_The_Duumvirate_Collapse.png"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Proud_Boys"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Proud_Boys.png"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_MAGA_Hat"
+        texturefile = "gfx/interface/ideas/IDA/IDA_MAGA_Hat.png"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_Pax_Americana"
+        texturefile = "gfx/interface/ideas/IDA/IDA_Pax_Americana.png"
+    }
+	spriteType = {
+        name = "GFX_idea_IDA_War_Plan_Black"
+        texturefile = "gfx/interface/ideas/IDA/IDA_War_Plan_Black.png"
+    }
+	
+	### Political Advisors ###
+	# Starting Advisors #
+	spriteType = {
+        name = "GFX_idea_James_Wesley_Rawles_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/James_Wesley_Rawles_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Brad_Little_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Brad_Little_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Janice_McGeachin_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Janice_McGeachin_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Mark_Gordon_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Mark_Gordon_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Mike_Adams_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Mike_Adams_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Susan_Gore_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Susan_Gore_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Radio_Free_Redoubt_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Radio_Free_Redoubt_Advisor.dds"
+    }
+	# Gained Advisors #
+	spriteType = {
+        name = "GFX_idea_Chuck_Baldwin_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Chuck_Baldwin_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Greg_Gianforte_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Greg_Gianforte_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Spencer_Cox_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Spencer_Cox_Advisor.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Morgan_Philpot_Advisor"
+        texturefile = "gfx/interface/ideas/IDA/Morgan_Philpot_Advisor.dds"
+    }
+	# Theorist #
+	spriteType = {
+        name = "GFX_idea_Alpine_Services_LLC_Theorist"
+        texturefile = "gfx/interface/ideas/IDA/Alpine_Services_LLC_Theorist.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Dugway_Proving_Ground_Theorist"
+        texturefile = "gfx/interface/ideas/IDA/Dugway_Proving_Ground_Theorist.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Blue_Air_Training_Theorist"
+        texturefile = "gfx/interface/ideas/IDA/Blue_Air_Training_Theorist.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_IFTS_Theorist"
+        texturefile = "gfx/interface/ideas/IDA/IFTS_Theorist.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_ATAC_Theorist"
+        texturefile = "gfx/interface/ideas/IDA/ATAC_Theorist.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Top_Aces_Theorist"
+        texturefile = "gfx/interface/ideas/IDA/Top_Aces_Theorist.dds"
+    }
+	
+	### Military Advisors ###
+	# Starting Chiefs #
+	spriteType = {
+        name = "GFX_idea_Jeff_Stankiewicz_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Jeff_Stankiewicz_Chief.dds"
+    }
+	# Gained Chiefs #
+	spriteType = {
+        name = "GFX_idea_Michael_Garshak_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Michael_Garshak_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Gregory_C_Porter_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Gregory_C_Porter_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Gary_L_Sayler_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Gary_L_Sayler_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Timothy_Donnellan_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Timothy_Donnellan_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Barry_Deibert_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Barry_Deibert_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_John_Trochmann_Chief"
+        texturefile = "gfx/interface/ideas/IDA/John_Trochmann_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Eric_Moutsos_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Eric_Moutsos_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Ammon_Bundy_Chief"
+        texturefile = "gfx/interface/ideas/UTA/Ammon_Bundy_Cheif.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Michael_F_McAllister_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Michael_F_McAllister_Chief.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Peter_Gautier_Chief"
+        texturefile = "gfx/interface/ideas/IDA/Peter_Gautier_Chief.dds"
+    }
+	# Starting High Command #
+	spriteType = {
+        name = "GFX_idea_John_Tiegen_Command"
+        texturefile = "gfx/interface/ideas/IDA/John_Tiegen_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Corey_Coon_Command"
+        texturefile = "gfx/interface/ideas/IDA/Corey_Coon_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Marshall_Burt_Command"
+        texturefile = "gfx/interface/ideas/IDA/Marshall_Burt_Command.dds"
+    }
+	# Gained High Command #
+	spriteType = {
+        name = "GFX_idea_Farin_Schwartz_Command"
+        texturefile = "gfx/interface/ideas/IDA/Farin_Schwartz_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Brian_Nesvik_Command"
+        texturefile = "gfx/interface/ideas/IDA/Brian_Nesvik_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Kyle_E_Carpenter_Command"
+        texturefile = "gfx/interface/ideas/IDA/Kyle_E_Carpenter_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Kelly_Bongiovi_Command"
+        texturefile = "gfx/interface/ideas/IDA/Kelly_Bongiovi_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Michelle_Mulberry_Command"
+        texturefile = "gfx/interface/ideas/IDA/Michelle_Mulberry_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Darren_Nogle_Command"
+        texturefile = "gfx/interface/ideas/IDA/Darren_Nogle_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Ryan_Payne_Command"
+        texturefile = "gfx/interface/ideas/IDA/Ryan_Payne_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Ryan_Bundy_Command"
+        texturefile = "gfx/interface/ideas/IDA/Ryan_Bundy_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_James_Arroyo_Command"
+        texturefile = "gfx/interface/ideas/IDA/James_Arroyo_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Brian_Penoyer_Command"
+        texturefile = "gfx/interface/ideas/IDA/Brian_Penoyer_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Melvin_Bouboulis_Command"
+        texturefile = "gfx/interface/ideas/IDA/Melvin_Bouboulis_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Matthew_W_Sibley_Command"
+        texturefile = "gfx/interface/ideas/IDA/Matthew_W_Sibley_Command.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Nathan_A_Moore_Command"
+        texturefile = "gfx/interface/ideas/IDA/Nathan_A_Moore_Command.dds"
+    }
+	
+	### Companies ###
+	# Tank Designer #
+	spriteType = {
+        name = "GFX_idea_International_Armoring_Corporation_Company"
+        texturefile = "gfx/interface/ideas/IDA/International_Armoring_Corporation_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_American_Honda_Motor_Company_Company"
+        texturefile = "gfx/interface/ideas/IDA/American_Honda_Motor_Company_Company.dds"
+    }
+	
+	# Naval Manufacturer #
+	spriteType = {
+        name = "GFX_idea_SAFE_Boats_International_Company"
+        texturefile = "gfx/interface/ideas/IDA/SAFE_Boats_International_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Vigor_Industrial_Company"
+        texturefile = "gfx/interface/ideas/IDA/Vigor_Industrial_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_NASSCO_Company"
+        texturefile = "gfx/interface/ideas/IDA/NASSCO_Company.dds"
+    }
+	
+	# Aircraft Designer #
+	spriteType = {
+        name = "GFX_idea_Aviat_Aircraft_Company"
+        texturefile = "gfx/interface/ideas/IDA/Aviat_Aircraft_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Sierra_Nevada_Corporation_Company"
+        texturefile = "gfx/interface/ideas/IDA/Sierra_Nevada_Corporation_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Aerojet_Rocketdyne_Company"
+        texturefile = "gfx/interface/ideas/IDA/Aerojet_Rocketdyne_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Ducommun_Company"
+        texturefile = "gfx/interface/ideas/IDA/Ducommun_Company.dds"
+    }
+	
+	# Material Designer #
+	spriteType = {
+        name = "GFX_idea_Cascade_Cartridge_Inc_Company"
+        texturefile = "gfx/interface/ideas/IDA/Cascade_Cartridge_Inc_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Browning_Arms_Company_Company"
+        texturefile = "gfx/interface/ideas/IDA/Browning_Arms_Company_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_US_Ordnance_Inc_Company"
+        texturefile = "gfx/interface/ideas/IDA/US_Ordnance_Inc_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Black_Rifle_Coffee_Company_Company"
+        texturefile = "gfx/interface/ideas/IDA/Black_Rifle_Coffee_Company_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Armalite_Company"
+        texturefile = "gfx/interface/ideas/IDA/Armalite_Company.dds"
+    }
+	
+	# Industrial Concern #
+	spriteType = {
+        name = "GFX_idea_Idaho_National_Laboratory_Company"
+        texturefile = "gfx/interface/ideas/IDA/Idaho_National_Laboratory_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Micron_Technology_Company"
+        texturefile = "gfx/interface/ideas/IDA/Micron_Technology_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_WW_Clyde_Company_Company"
+        texturefile = "gfx/interface/ideas/IDA/WW_Clyde_Company_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Google_Company"
+        texturefile = "gfx/interface/ideas/IDA/Google_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Chevron_Corporation_Company"
+        texturefile = "gfx/interface/ideas/IDA/Chevron_Corporation_Company.dds"
+    }
+	spriteType = {
+        name = "GFX_idea_Granite_Construction_Company"
+        texturefile = "gfx/interface/ideas/IDA/Granite_Construction_Company.dds"
+    }
+	
+	### Event Pictures ###
+	# News Events #
+	spriteType = { 
+		name = "event_news_WCZ_Unites_The_Rockies" 
+		texturefile = "gfx/events/news/WCZ_Unites_The_Rockies.tga" 
+	}
+	spriteType = { 
+		name = "event_news_WCZ_Reunites_The_West" 
+		texturefile = "gfx/events/news/WCZ_Reunites_The_West.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Western_Independence" 
+		texturefile = "gfx/events/news/IDA_Western_Independence.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Republican_Victory" 
+		texturefile = "gfx/events/news/IDA_Republican_Victory.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Trumpist_Victory" 
+		texturefile = "gfx/events/news/IDA_Trumpist_Victory.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Democratic_Victory" 
+		texturefile = "gfx/events/news/IDA_Democratic_Victory.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Libertarian_Victory" 
+		texturefile = "gfx/events/news/IDA_Libertarian_Victory.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Constitutionalist_Victory" 
+		texturefile = "gfx/events/news/IDA_Constitutionalist_Victory.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Revolt_In_The_Rockies" 
+		texturefile = "gfx/events/news/IDA_Revolt_In_The_Rockies.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Bundy_Coup" 
+		texturefile = "gfx/events/news/IDA_Bundy_Coup.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Rocky_Mountain_Revolution" 
+		texturefile = "gfx/events/news/IDA_Rocky_Mountain_Revolution.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_America_Announces_Her_Ambitions" 
+		texturefile = "gfx/events/news/IDA_America_Announces_Her_Ambitions.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_WCZ_Restoration" 
+		texturefile = "gfx/events/news/IDA_WCZ_Restoration.tga" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Bundy_Reunification" 
+		texturefile = "gfx/events/news/IDA_Bundy_Reunification.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Trumpist_Exiles" 
+		texturefile = "gfx/events/news/IDA_Trumpist_Exiles.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_McInnes_Siezes_Power" 
+		texturefile = "gfx/events/news/IDA_McInnes_Siezes_Power.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Don_Jr_Siezes_Power" 
+		texturefile = "gfx/events/news/IDA_Don_Jr_Siezes_Power.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_President_Kavanaugh" 
+		texturefile = "gfx/events/news/IDA_President_Kavanaugh.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_A_Tale_Of_Two_Brothers" 
+		texturefile = "gfx/events/news/IDA_A_Tale_Of_Two_Brothers.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_McInnes_Reunification" 
+		texturefile = "gfx/events/news/IDA_McInnes_Reunification.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_Trump_Jr_Reunification" 
+		texturefile = "gfx/events/news/IDA_Trump_Jr_Reunification.png" 
+	}
+	spriteType = { 
+		name = "event_news_IDA_American_Hegemony" 
+		texturefile = "gfx/events/news/IDA_American_Hegemony.png" 
+	}
+	# Local Events #
+	spriteType = {
+        name = "GFX_report_event_Cornered_No_More"
+        texturefile = "gfx/events/IDA_events/Cornered_No_More.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_Donald_Trump_Phone_Call"
+        texturefile = "gfx/events/IDA_events/Donald_Trump_Phone_Call.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_Joe_Biden_Phone_Call"
+        texturefile = "gfx/events/IDA_events/Joe_Biden_Phone_Call.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_LDS_Coup_Utah"
+        texturefile = "gfx/events/IDA_events/LDS_Coup_Utah.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_Stankiewicz_Plans"
+        texturefile = "gfx/events/IDA_events/Stankiewicz_Plans.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Anti_War_Protest"
+        texturefile = "gfx/events/IDA_events/IDA_Anti_War_Protest.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Strikes"
+        texturefile = "gfx/events/IDA_events/IDA_Strikes.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Raid"
+        texturefile = "gfx/events/IDA_events/IDA_Raid.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Destroy_Roads"
+        texturefile = "gfx/events/IDA_events/IDA_Destroy_Roads.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Militias_1"
+        texturefile = "gfx/events/IDA_events/IDA_Militias_1.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Militia_2"
+        texturefile = "gfx/events/IDA_events/IDA_Militia_2.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Militia_3"
+        texturefile = "gfx/events/IDA_events/IDA_Militia_3.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Generic_Meeting"
+        texturefile = "gfx/events/IDA_events/IDA_Generic_Meeting.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Militia_4"
+        texturefile = "gfx/events/IDA_events/IDA_Militia_4.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Militia_5"
+        texturefile = "gfx/events/IDA_events/IDA_Militia_5.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Militia_6"
+        texturefile = "gfx/events/IDA_events/IDA_Militia_6.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Generic_Gun_Production"
+        texturefile = "gfx/events/IDA_events/IDA_Generic_Gun_Production.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Stankiewicz_At_Attention"
+        texturefile = "gfx/events/IDA_events/IDA_Stankiewicz_At_Attention.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Nevada_Militia"
+        texturefile = "gfx/events/IDA_events/IDA_Nevada_Militia.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Bundy_Support"
+        texturefile = "gfx/events/IDA_events/IDA_Bundy_Support.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Arizona_Militia"
+        texturefile = "gfx/events/IDA_events/IDA_Arizona_Militia.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Air_Force"
+        texturefile = "gfx/events/IDA_events/IDA_Air_Force.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_National_Guard"
+        texturefile = "gfx/events/IDA_events/IDA_National_Guard.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Shea_Joins_Trumpists"
+        texturefile = "gfx/events/IDA_events/IDA_Shea_Joins_Trumpists.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Shea_Refuses"
+        texturefile = "gfx/events/IDA_events/IDA_Shea_Refuses.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Cascadia_Militia"
+        texturefile = "gfx/events/IDA_events/IDA_Cascadia_Militia.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Meeting_With_Jenner"
+        texturefile = "gfx/events/IDA_events/IDA_Meeting_With_Jenner.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Communications_Cut"
+        texturefile = "gfx/events/IDA_events/IDA_Communications_Cut.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Bombing_Ships"
+        texturefile = "gfx/events/IDA_events/IDA_Bombing_Ships.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Hawaii"
+        texturefile = "gfx/events/IDA_events/IDA_Hawaii.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Sam_Brown_Arrives"
+        texturefile = "gfx/events/IDA_events/IDA_Sam_Brown_Arrives.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Alaska"
+        texturefile = "gfx/events/IDA_events/IDA_Alaska.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Celebrations_In_The_Streets"
+        texturefile = "gfx/events/IDA_events/IDA_Celebrations_In_The_Streets.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Governor_Meeting"
+        texturefile = "gfx/events/IDA_events/IDA_Governor_Meeting.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Lincoln_Declaration"
+        texturefile = "gfx/events/IDA_events/IDA_Lincoln_Declaration.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Election"
+        texturefile = "gfx/events/IDA_events/IDA_Election.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Idaho"
+        texturefile = "gfx/events/IDA_events/IDA_Idaho.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Wyoming"
+        texturefile = "gfx/events/IDA_events/IDA_Wyoming.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Montana"
+        texturefile = "gfx/events/IDA_events/IDA_Montana.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Utah"
+        texturefile = "gfx/events/IDA_events/IDA_Utah.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Colorado"
+        texturefile = "gfx/events/IDA_events/IDA_Colorado.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Nevada"
+        texturefile = "gfx/events/IDA_events/IDA_Nevada.tga"
+	}
+    spriteType = {
+        name = "GFX_report_event_IDA_Arizona"
+        texturefile = "gfx/events/IDA_events/IDA_Arizona.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_New_Mexico"
+        texturefile = "gfx/events/IDA_events/IDA_New_Mexico.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Washington"
+        texturefile = "gfx/events/IDA_events/IDA_Washington.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Oregon"
+        texturefile = "gfx/events/IDA_events/IDA_Oregon.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_California"
+        texturefile = "gfx/events/IDA_events/IDA_California.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Republican"
+        texturefile = "gfx/events/IDA_events/IDA_Republican.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Democrat"
+        texturefile = "gfx/events/IDA_events/IDA_Democrat.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Libertarian"
+        texturefile = "gfx/events/IDA_events/IDA_Libertarian.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Constitution"
+        texturefile = "gfx/events/IDA_events/IDA_Constitution.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_City_Battle"
+        texturefile = "gfx/events/IDA_events/IDA_City_Battle.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_RMLF_Victory"
+        texturefile = "gfx/events/IDA_events/IDA_RMLF_Victory.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Proud_Boys"
+        texturefile = "gfx/events/IDA_events/IDA_Proud_Boys.tga"
+    }
+	spriteType = {
+        name = "GFX_report_event_The_Exiles"
+        texturefile = "gfx/events/IDA_events/The_Exiles.png"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Plane_Crash"
+        texturefile = "gfx/events/IDA_events/IDA_Plane_Crash.png"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_McInnes"
+        texturefile = "gfx/events/IDA_events/IDA_McInnes.png"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Don_Jr"
+        texturefile = "gfx/events/IDA_events/IDA_Don_Jr.png"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Brett_Kavanaugh"
+        texturefile = "gfx/events/IDA_events/IDA_Brett_Kavanaugh.png"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Occindencia_Flag"
+        texturefile = "gfx/events/IDA_events/IDA_Occindencia_Flag.png"
+    }
+	spriteType = {
+        name = "GFX_report_event_IDA_Pax_Americana_Flag"
+        texturefile = "gfx/events/IDA_events/IDA_Pax_Americana_Flag.png"
+    }
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		372 1925 2622 3533 7139 7167 7384 
+	}
+	history={
+		owner = CAS
+		add_core_of = CAS
+		add_core_of = LIB
+
+		victory_points = {
+			3533 2 #Wenatchee
+		}
+		victory_points = {
+			1925 1 #Ellensberg
+		}
+		victory_points = {
+			7384 1 #Sunnyside
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+ 
+ 
+ state_category=rural
+ manpower=36200
+	buildings_max_level_factor=1.000
+}

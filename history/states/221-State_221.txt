@@ -1,0 +1,28 @@
+
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		8497 
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+		#add_core_of = WMS
+            victory_points = { #Boston
+                8497 30
+            }
+        buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			dockyard = 1
+			8497 = {
+				naval_base = 3
+			}
+        }
+	}
+
+ state_category=large_city
+ manpower=684379
+	buildings_max_level_factor=1.000
+}

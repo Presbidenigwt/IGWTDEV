@@ -1,0 +1,28 @@
+
+PRA = "countries/PRA.txt"
+
+NCR = "countries/california.txt"
+
+MAN = "countries/manson.txt"
+
+JFR = "countries/columbia.txt"
+
+NSL = "countries/league.txt"
+
+SLA = "countries/symbanise.txt"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

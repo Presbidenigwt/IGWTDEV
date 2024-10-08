@@ -1,0 +1,121 @@
+focus_tree = {
+	id = bern
+	country = { 
+	factor = 0
+    }
+    default = no
+    focus = {
+		id = feel_the_bern
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 15
+		y = 0
+		
+		completion_reward = {
+			
+			}
+		
+		}
+		
+		focus = {
+		id = a_time_to_unite
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 15
+		y = 3
+		prerequisite = {
+			focus = feel_the_bern
+		}
+		completion_reward = {
+			
+			}
+		
+		}
+		focus = {
+		id = all_americans
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 15
+		y = 4
+		prerequisite = {
+			focus = a_time_to_unite
+			}
+		completion_reward = {
+			
+			}
+		
+		}
+		focus = {
+		id = together
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 15
+		y = 5
+		prerequisite = {
+			focus = all_americans
+		}
+		completion_reward = {
+			
+			}
+		
+		}
+		focus = {
+		id = against_all_tryants
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 20
+		y = 3
+		prerequisite = {
+			focus = feel_the_bern
+		}
+		completion_reward = {
+			
+			}
+		
+		}
+		
+		focus = {
+		id = never_here
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 20
+		y = 4
+		prerequisite = {
+			focus = against_all_tryants
+		}
+		completion_reward = {
+			
+			}
+		
+		}
+		
+		focus = {
+		id = the_false_leftist
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 20
+		y = 5
+		prerequisite = {
+			focus = never_here
+		}
+		completion_reward = {
+			
+			}
+		
+		}
+		
+		focus = {
+		id = the_real_end
+		icon = GFX_goal_Anarchism_Society
+		cost = 8
+		x = 10
+		y = 3
+		prerequisite = {
+			focus = feel_the_bern
+		}
+		completion_reward = {
+			
+			}
+		
+		}
+    }

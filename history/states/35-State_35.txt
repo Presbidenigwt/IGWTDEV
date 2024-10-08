@@ -1,0 +1,22 @@
+
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		13 755 1073 2174 3153 7065 
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,25 @@
+state={
+	id=484
+	name="STATE_484"
+	provinces={
+		88 1244 2700 2751 3629 4325 4357 5865 8261 8350 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = DAK
+		add_core_of = LAK
+
+		victory_points = {
+			5865 1 #Winner
+		}
+
+		buildings = {
+			infrastructure = 6
+		}
+	}
+	
+	manpower=71221
+	state_category=rural 
+	buildings_max_level_factor=1.000
+}

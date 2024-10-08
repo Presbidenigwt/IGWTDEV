@@ -1,0 +1,235 @@
+focus_tree = {
+	id = hall
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRA
+		}
+	}
+    default = no
+    focus = {
+		id = red_dawn
+		icon = focus_generic_red_dawn
+		cost = 5.00
+		x = 10
+		y = 0
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = first_congress
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 10
+		y = 1
+		prerequisite = {
+			focus = red_dawn
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = the_issue_of_the_state
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 10
+		y = 2
+		prerequisite = {
+			focus = first_congress
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = central_ex
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 9
+		y = 3
+		prerequisite = {
+			focus = the_issue_of_the_state
+		}
+		mutually_exclusive = { focus = balanced_ex }
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = balanced_ex
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 11
+		y = 3
+		prerequisite = {
+			focus = the_issue_of_the_state
+		}
+		mutually_exclusive = { focus = central_ex }
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = our_fbi
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 9
+		y = 4
+		prerequisite = {
+			focus = central_ex
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = american_vaguard
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 9
+		y = 5
+		prerequisite = {
+			focus = our_fbi
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = maintain_habeas_corpus 
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 11
+		y = 4
+		prerequisite = {
+			focus = balanced_ex
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = our_shining_light
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 11
+		y = 5
+		prerequisite = {
+			focus = maintain_habeas_corpus
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = the_economic_plight
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 15
+		y = 2
+		prerequisite = {
+			focus = first_congress
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+		focus = {
+		id = soveit_ec
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 16
+		y = 3
+		prerequisite = {
+			focus = the_economic_plight
+		}
+		mutually_exclusive = { focus = part_ec }
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+			focus = {
+		id = part_ec
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 14
+		y = 3
+		prerequisite = {
+			focus = the_economic_plight
+		}
+		mutually_exclusive = { focus = soveit_ec }
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+				focus = {
+		id = mass_nationalization
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 16
+		y = 4
+		prerequisite = {
+			focus = soveit_ec
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+				focus = {
+		id = partial_nationalization
+		icon = focus_generic_burn_it_all
+		cost = 5.00
+		x = 14
+		y = 4
+		prerequisite = {
+			focus = part_ec
+		}
+		completion_reward = {
+		country_event = {
+				id = 
+			}
+			
+		}
+	}
+	
+	
+	}

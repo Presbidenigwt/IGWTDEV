@@ -1,0 +1,28 @@
+
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		7103 7140 12097 
+	}
+	history={
+		owner = PAC
+		add_core_of = PAC
+		add_core_of = CAS
+		add_core_of = LIB
+
+		victory_points = {
+			12097 1 #Oak Harbor
+		}
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+		}
+	}
+ 
+ 
+ state_category=town 
+ manpower=69480
+	buildings_max_level_factor=1.000
+}

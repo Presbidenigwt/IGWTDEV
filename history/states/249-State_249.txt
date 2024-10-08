@@ -1,0 +1,28 @@
+
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		134 542 884 1243 1263 1268 1307 1611 2448 2588 2689 3118 4777 9781 9870 9923 
+	}
+
+	resources={
+		chromium = 2
+	}
+
+	history={
+		owner = TEX
+		add_core_of = NMX
+
+		buildings = {
+			infrastructure = 5
+		}
+
+		victory_points = {
+			4777 1 #Las Vegas
+		}
+	}
+ state_category=pastoral 
+ manpower=78500
+	buildings_max_level_factor=1.000
+}

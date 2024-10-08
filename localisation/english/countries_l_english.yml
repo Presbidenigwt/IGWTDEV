@@ -1,0 +1,60 @@
+﻿l_english:
+
+ ### UNITED STATES OF AMERICA TAGS ###
+ # Western United States Tags (Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming) #
+ AFO:0 "Western Army Commad"
+ AFO_DEF:0 "Western Army Commad Of The U.S. Armed Forces"
+ AFO_ADJ:0 "USAF"
+ 
+ AFF:0 "America Front"
+ AFF_DEF:0 "The American National State"
+ AFF_ADJ:0 "American Retards"
+
+ FIR_ADJ:0 "Nevadan"
+ 
+ HAM:0 "America"
+ HAM_DEF:0 "America"
+ HAM_ADJ:0 "American"
+ 
+
+ 
+ # Montana Tags #
+
+ 
+ ###########################
+ 
+
+ 
+ PRA:0 "People's Republic of America"
+ PRA_ADJ:0 "Socialist Americans"
+ PRA_DEF:0 "Red America"
+ PRA_moderate_socialist:0 "People's Republic of America"
+ PRA_moderate_socialist_ADJ:0 "Socialist Americans"
+ PRA_moderate_socialist_DEF:0 "Red America"
+ PRA_communism:0 "American Liberation Army"
+ PRA_communismt_ADJ:0 "ALA"
+ PRA_communism_DEF:0 "the American People's Army of Liberation and Revolution"
+
+
+ # PRA Tags #
+
+
+ JFR:0 "Columbia"
+ JFR_ADJ:0 "Columbian"
+ JFR_DEF:0 "The New State Of Columbia"
+ 
+ MAN:0 "Manson Family"
+ MAN_ADJ:0 "Family"
+ MAN_DEF:0 "The Manson Family"
+ 
+ NCR:0 "California"
+ NCR_ADJ:0 "Californian"
+ NCR_DEF:0 "The New California Republic"
+ 
+ LAS:0 "Las Vegas"
+ LAS_DEF:0 "the City of Las Vegas"
+ LAS_ADJ:0 "Las Vegan"
+
+ NVD:0 "Nevada"
+ NVD_ADJ:0 "Nevadan"
+ NVD_DEF:0 "the Republic of Nevada"

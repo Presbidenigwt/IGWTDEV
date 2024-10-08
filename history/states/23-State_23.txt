@@ -1,0 +1,59 @@
+
+state={
+	id=23
+	name="STATE_23"
+	provinces={
+		132 184 371 758 918 943 1109 1465 1697 1801 2340 2478 2581 2971 2991 3231 3896 4040 4203 4430 4521 4646 4735 4788 4882 4934 5066 5620 5890 6268 6451 7290 7313 7314 7329 7360 7400 7410 7416 7457 7469 7494 7506 7536 7552 7586 7587 7598 7630 7648 7671 7680 7707 7713 7753 7767 7818 7892 7927 7948 19479 19480 
+	}
+	
+	resources={
+		rubber = 4
+	}
+
+		history={
+		owner = 
+		add_core_of = FRA
+		add_core_of = MNS
+		#add_core_of = MIL
+		add_core_of = MIN
+
+		
+		victory_points = {
+		 	7818 2 #Blomkest
+		}
+		
+		victory_points = {
+		 	184 2 #BrownnsValley
+		}
+		
+		victory_points = {
+		 	3896 1 #Breckenridge
+		}
+		
+		victory_points = {
+		 	7892 1 #Hutchinson
+		}
+		
+		victory_points = {
+		 	4646 1 #GraniteFalls
+		}
+		
+		victory_points = {
+		 	2991 1 #ParkersPraire
+		}
+		
+		victory_points = {
+		 	7494 1 #FergusFalls
+		}
+		
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+ state_category=city 
+ manpower=665694
+	buildings_max_level_factor=1.000
+}

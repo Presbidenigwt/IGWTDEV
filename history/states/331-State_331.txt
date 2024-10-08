@@ -1,0 +1,25 @@
+
+state={
+	id=331
+	name="STATE_331"
+	provinces={
+		1148 2248 3634 4230 5056 5457 9863 9879 9886 9894 9909 9928 9936 9947 9992
+	}
+
+	resources={
+		steel = 18
+	}
+
+		history={
+		owner = CSA
+		add_core_of = CSA
+
+		buildings = {
+			arms_factory = 2
+			infrastructure = 5
+		}
+	}
+ state_category=town 
+ manpower=1198710
+	buildings_max_level_factor=1.000
+}

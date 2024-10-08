@@ -1,0 +1,129 @@
+#	Example:
+# 
+#	example_dynamic_modifier = {
+#		icon = "GFX_idea_unknown" # optional, will show up in guis if icon is specified
+#		enable = { always = yes } #optional, the modifier won't apply if not enabled
+#		remove_trigger = { always = no } #optional, will remove the modifier if true
+#
+#		# list of modifiers
+#		fuel_cost = 321
+#		max_fuel = var_max_fuel # will be taken from a variable
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		add_dynamic_modifier = {
+#			modifier = example_dynamic_modifier
+#			scope = GER # optional, if you specify this your dynamic modifier scoped to this scope (root is the effect scope)
+#			days = 14 # optional, will be removed after this many days passes
+#		}
+#	}
+#
+#	can be added to countries, states or unit leaders
+#	will only updated daily, unless forced by force_update_dynamic_modifier effect
+
+sabotaged_resources = {
+	remove_trigger = { 
+		has_resistance = no
+	}
+	
+	icon = GFX_modifiers_sabotaged_resource
+	
+	temporary_state_resource_oil = sabotaged_oil
+	temporary_state_resource_aluminium = sabotaged_aluminium
+	temporary_state_resource_rubber = sabotaged_rubber
+	temporary_state_resource_tungsten = sabotaged_tungsten
+	temporary_state_resource_steel = sabotaged_steel
+	temporary_state_resource_chromium = sabotaged_chromium
+}
+
+resource_import_cost = { #NATIONAL SPIRIT, balls.
+	enable = { always = yes }
+
+	icon = GFX_idea_resource_import_cost
+	
+	political_power_cost = resource_import_political_power_cost 
+	civilian_factory_use = resource_import_consumer_goods_factor #Was originaly cg before paradox fucked em up
+	country_resource_rubber = resource_import_rubber
+	country_resource_oil = resource_import_oil
+	country_resource_tungsten = resource_import_tungsten
+	country_resource_aluminium = resource_import_aluminium
+	country_resource_chromium = resource_import_chromium
+	country_resource_steel = resource_import_steel
+}
+
+
+
+PAC_army_militia_mechanic = {
+	icon = "GFX_idea_PAC_rivalry"
+	conscription_factor = militia_strength
+	army_attack_factor = army_strength
+	army_defence_factor = army_strength
+}
+
+
+fuel_mechanic = {
+	industrial_capacity_factory = expense_mil
+	production_speed_buildings_factor = expense_civs
+	base_fuel_gain = fuel_lost
+	fuel_gain_factor = fuel_rationing
+}
+
+
+CSA_southern_bloodshet = {
+	icon = "GFX_idea_CSA_blood" 
+	army_speed_factor = -0.5 
+	army_defence_factor = 0.2
+	supply_consumption_factor = 1
+	army_morale_factor = -0.25
+	org_damage_multiplier = -0.2
+}
+
+FRA_rural_rebels = {
+	icon = "GFX_idea_FLO_trumpism" 
+	army_speed_factor = -0.2
+	supply_consumption_factor = 1
+	org_damage_multiplier = -0.2
+	state_resources_factor = -0.5
+	state_production_speed_buildings_factor = -0.75
+	remove_trigger = { 
+		NOT = { controller = { has_country_flag = FRA_trumpist_resistance } }
+	}
+}
+
+FRA_defense_of_dc = {
+	icon = "MEX_politicised_army_2" 
+	army_core_attack_factor = 0.1
+	army_core_defence_factor = 0.1
+	army_defence_factor = 0.1
+	army_org_factor = 0.2
+	army_org_regain = 0.3
+	army_morale_factor = 0.3
+}
+
+CSA_ruined_infra = {
+	icon = "GFX_idea_unknown" 
+	army_speed_factor = -0.40
+	supply_consumption_factor = 1
+	army_morale_factor = -0.25
+}
+
+
+CSA_faith = {
+	icon = "GFX_idea_unknown" 
+	stability_factor = pop_sup
+	war_support_factor = pop_sup
+	conscription_factor = cons_faith
+}
+
+USA_proud_boys_idea = {
+	enable = { always = yes }
+
+	stability_factor = usa_proud_boys_stability_var
+	army_attack_factor = usa_proud_boys_attack_var
+	army_defence_factor = usa_proud_boys_attack_var
+	conscription_factor = usa_proud_boys_var
+	ai_focus_aggressive_factor = usa_proud_boys_var
+}

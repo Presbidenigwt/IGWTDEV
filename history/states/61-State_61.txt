@@ -1,0 +1,39 @@
+
+state={
+	id=61
+	name="STATE_61"
+	provinces={
+		166 464 671 1870 2867 3246 3342 3798 5433 6067 9885 9896 9948 9963 10024 10034 10161 10175 10205 10223 
+	}
+		history={
+		owner = NAV
+		add_core_of = NAV
+	
+		victory_points = {
+			464 3 #Flagstaff
+		}
+		victory_points = {
+			3246 1 #Winslow
+		}
+		victory_points = {
+			10024 1 #Sedona
+		}
+		victory_points = {
+			671 1 #Show Low
+		}
+		victory_points = {
+			1870 1 #Chino Valley
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+ 
+ 
+ state_category=rural
+ manpower=225476
+	buildings_max_level_factor=1
+}

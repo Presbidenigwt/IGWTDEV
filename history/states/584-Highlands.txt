@@ -1,0 +1,26 @@
+state={
+	id=584
+	name="STATE_584"
+	provinces={
+		880 2182 2946 3905 5941 11114 11118 11144 11157 
+	}
+	history={
+			owner = FLO
+			add_core_of = FLO
+
+			buildings={
+				infrastructure = 5
+				air_base = 1
+			}
+			victory_points = { #Sebring 
+			11157 1
+			}
+			victory_points = { #Winter Haven 
+			11114 1
+			}
+			
+		}
+	manpower=139401
+	buildings_max_level_factor=1.000
+	state_category=town
+}

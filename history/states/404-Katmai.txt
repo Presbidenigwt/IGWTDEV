@@ -1,0 +1,35 @@
+
+state={
+	id=404
+	name="STATE_404"
+	provinces={
+		51 127 145 295 593 767 770 907 1160 1457 1561 1939 2852 2865 3159 3534 3653 3662 3714 5346 5969 6463 6464 6493 6495 6521 6566 6585 6588 6630 6709 6780 6855 12077 
+	}
+	resources={
+		oil = 40
+	}
+	history={
+		owner = PAC
+		add_core_of = PAC
+		add_core_of = ALA
+
+		victory_points = {
+			6855 1 #Cold Bay
+		}
+		
+		buildings = {
+			infrastructure = 4
+			rocket_site = 3
+			radar_station = 4
+			6855 = {
+				naval_base = 8
+			}
+		}
+	}
+	
+ 
+ 
+ state_category=city
+ manpower=155081
+	buildings_max_level_factor=1.000
+}

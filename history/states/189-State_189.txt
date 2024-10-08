@@ -1,0 +1,27 @@
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		12132 
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+
+		victory_points = {
+			12132 1
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+			12132 = {
+				naval_base = 5
+			}
+		}
+	}
+
+ state_category=town
+ manpower=88071
+	buildings_max_level_factor=1.000
+}

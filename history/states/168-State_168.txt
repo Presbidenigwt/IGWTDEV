@@ -1,0 +1,37 @@
+
+state={
+	id=168
+	name="STATE_168"
+	provinces={
+		171 4588 5239 8265 8303 8327 8335 6057 3489
+	}
+
+	resources={
+		rubber = 6
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		#add_core_of = NHR
+        victory_points = {
+            5239 2
+        }
+        victory_points = {
+            8327 2
+        }
+        victory_points = {
+            8335 4
+        }
+        buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 4
+        }
+	}
+
+ state_category=town
+ manpower=157319
+	buildings_max_level_factor=1.000
+}

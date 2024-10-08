@@ -1,0 +1,21 @@
+
+state={
+	id=118
+	name="STATE_118"
+	provinces={
+		137 500 1242 3148 7243
+	}
+	history={
+		owner = MON
+		add_core_of = MON
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+ 
+ 
+ state_category=town
+ manpower=134900
+	buildings_max_level_factor=1.000
+}

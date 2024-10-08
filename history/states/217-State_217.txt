@@ -1,0 +1,26 @@
+state={
+	id=217
+	name="STATE_217"
+	provinces={
+		12137 
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+		#add_core_of = PVD
+
+		buildings = {
+			infrastructure = 3
+			12137 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12137 3
+		}
+	}
+
+ state_category=tiny_island
+ manpower=1034
+	buildings_max_level_factor=1.000
+}

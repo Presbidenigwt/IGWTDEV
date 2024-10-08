@@ -1,0 +1,61 @@
+
+state={
+	id=302
+	name="STATE_302"
+	provinces={
+		1046 2920 3685 3935 10122 10137 10150 10184 19593 19594 19596
+	}
+
+	resources={
+		rubber = 76
+	}
+
+		history={
+		victory_points = {
+			10184 55
+		}
+		victory_points = {
+			3685 20
+		}
+		victory_points = {
+			19593 5
+		}
+		victory_points = {
+			2920 5
+		}
+		victory_points = {
+			3935 3
+		}
+		victory_points = {
+			10150 5
+		}
+		victory_points = {
+			19594 10
+		}
+		victory_points = {
+			1046 5
+		}
+		victory_points = {
+			10137 10
+		}
+		owner = HAM
+		add_core_of = HAM
+				buildings = {
+			infrastructure = 9
+			industrial_complex = 5
+			arms_factory = 5
+			air_base = 8
+			dockyard = 2
+			synthetic_refinery = 3
+			3685 = {
+				naval_base = 10
+				coastal_bunker = 1
+			}
+
+	}
+}
+ 
+ state_category=town 
+ manpower=9720000 #-30000 Turkish march
+	buildings_max_level_factor=1.000
+}

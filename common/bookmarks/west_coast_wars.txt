@@ -1,0 +1,167 @@
+bookmarks = {
+	bookmark = {
+		name = "WEST_COAST_WARS_NAME"
+		desc = "WEST_COAST_WARS_DESC"
+		date = 1987.4.1.12
+		picture = "GFX_select_date_west_coast"
+		default_country = "PRA"
+		default = yes
+
+		"PAC"={
+			history = "PAC_GOOD_FRIDAY_DESC"
+			ideology = autocratic
+			ideas = {
+				PAC_home_of_the_marines
+				PAC_heavy_army_expending
+			}
+			focuses = {
+				PAC_continue
+				PAC_call_marines
+				PAC_China
+			}
+		}
+		"CAS"={
+			history = "CAS_GOOD_FRIDAY_DESC"
+			ideology = democrat
+			ideas = {
+				CAS_guerilla_warfare_1
+			}
+			focuses = {
+				CAS_the_presidential_election
+				CAS_einheitspakt
+				CAS_embrace_larp
+			}
+		}
+		"PRA"={
+			history = "PRA_GOOD_FRIDAY_DESC"
+			ideology = libertarian_left
+			ideas = {
+				Class_Conflict_Cali
+				HappyChinese
+				HappyAnarchists
+			}
+			focuses = {
+				Replace_the_Old_Man
+				Amazing_Grace
+				Chairman_Sanders
+			}
+		}
+		"MON"={
+			history = "MON_GOOD_FRIDAY_DESC"
+			ideology = democrat
+			ideas = {
+				MON_Rifleland
+				MON_Confused_State
+			}
+			focuses = {
+				MON_Self-Sufficiency_Plan
+				MON_Permanent_Curfew
+				MON_Montanian_Sovereign_Army
+			}
+		}
+		"IDA"={
+			history = "IDA_GOOD_FRIDAY_DESC"
+			ideology = republican
+			ideas = {
+				IDA_American_Redoubt
+				IDA_Militia_State_1
+				IDA_Economic_Dependence_1
+			}
+			focuses = {
+				IDA_Loyalty_To_The_East
+				IDA_Dig_In
+				IDA_The_Lincoln_Declaration
+			}
+		}
+		"UTA"={
+			history = "UTA_GOOD_FRIDAY_DESC"
+			ideology = republican
+			ideas = {
+				UTA_Pioneer_Spirit
+			}
+			focuses = {
+				UTA_A_Dictorial_Regime
+                UTA_The_Mormons_Must_Go
+                UTA_God_Will_Guide_Us
+			}
+		}
+		"SIN"={
+			history = "SIN_GOOD_FRIDAY_DESC"
+			ideology = autocratic
+			ideas = {
+				#
+			}
+			focuses = {
+				Work_with_Cartel
+				The_Meeting
+				Work_with_Republicans
+			}
+		}
+		"---"={
+			history = "OTHER_GOOD_FRIDAY_DESC"
+		}
+		#minors
+		"MOL"={
+			history = "MOL_GOOD_FRIDAY_DESC"
+			ideology = libertarian_right
+			minor = yes
+			ideas = {
+				MOL_initial_chaos
+				MOL_refugees
+				MOL_hawthorne_army_depot
+				MOL_0_recognition
+			}
+			focuses = {
+				MOL_birth_of_a_micronation
+				MOL_molossian_republic
+				MOL_imperial_presidency
+			}
+		}
+		"HOP"={
+			history = "HOP_GOOD_FRIDAY_DESC"
+			ideology = libertarian_right
+			minor = yes
+			ideas = {
+				HOP_ss_divisions
+			}
+			focuses = {
+				HOP_For_Aryans
+				HOP_Rise_Of_Evil
+				HOP_Raze_Navajo
+			}
+		}
+		"LIB"={
+			history = "LIB_GOOD_FRIDAY_DESC"
+			ideology = autocratic
+			minor = yes
+			ideas = {
+				
+			}
+			focuses = {
+				LIB_the_lords_work
+				LIB_if_i_forget_thou
+				LIB_let_them_come
+			}
+		}
+		"AFO"={
+			history = "AFO_GOOD_FRIDAY_DESC"
+			ideology = republican
+			minor = yes
+			ideas = {
+				AFO_research_buff
+				AFO_blacksite
+			}
+			focuses = {
+				AFO_on_our_own
+				AFO_push_to_the_limit
+				AFO_eye_of_sauron
+			}
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,415 @@
+division_template = {
+	# Note: Trump America consists of multiple states, though they are rather military weak. Nevertheless, two Dakotas give fair amount of troops and the rest of states fill the decent manpower pool.
+    name = "Republican Militia"
+#    division_names_group =
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+    name = "National Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Proud Boy Militias"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Russian Volunteers"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+########################################################
+
+units = {
+
+
+	division = {
+		name = "1st 'Fuck RINOs' Division"
+		location = 3473
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "2nd 'Amendment' Division"
+		location = 2115
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "3rd 'DemonCrats' Division"
+		location = 2587
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "4th 'Gods Men' Division"
+		location = 4434
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "5th 'Sons of Liberty' Division"
+		location = 1921
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "8th 'Can't Stump Trump' Division"
+		location = 1139
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "20th 'Trump 2024' Division"
+		location = 3581
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "21st 'Washington' Division"
+		location = 9633
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "33rd 'Mar-a-lago' Division"
+		location = 2205
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	#10
+	division = {
+		name = "69th 'Biden's Nightmare' Division"
+		location = 3454
+		division_template = "Republican Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	# South Dakota National Guard #
+	division = {
+		name = "196th Maneuver Enhancement Brigade"
+		location = 2704
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	
+	division = {
+		name = "881st Troop Command"
+		location = 88
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	# North Dakota National Guard #
+	division = {
+		name = "68th Troop Command"
+		location = 607
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	# Nebraska National Guard #
+	division = {
+		name = "92nd Troop Command"
+		location = 2964
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	
+	division = {
+		name = "67th 'Pike Brigade' Maneuver Enhancement Brigade"
+		location = 2912
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	# Oklahoma National Guard #
+	division = {
+		name = "90th Troop Command"
+		location = 6121
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "45th 'Thunderbird' Infantry Brigade Combat Team"
+		location = 1586
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "45th Field Artillery Brigade"
+		location = 1771
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	# Iowa National Guard #
+	division = {
+		name = "67th Troop Command"
+		location = 4351
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+
+	division = {
+		name = "2nd Infantry Brigade Combat Team"
+		location = 7928
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	# Colorado National Guard #
+	division = {
+		name = "169th 'Liberators' Field Artillery Brigade"
+		location = 2130
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	
+	division = {
+		name = "89th Troop Command"
+		location = 185
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	
+	division = {
+		name = "100th Missile Defense Brigade"
+		location = 1473
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	# Kansas National Guard #
+	division = {
+		name = "635th Regional Support Group"
+		location = 9401
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	
+	division = {
+		name = "130th Field Artillery Brigade"
+		location = 9116
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	# Missouri National Guard #
+	division = {
+		name = "110th Maneuver Enhancement Brigade"
+		location = 9401
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "35th Military Police Brigade"
+		location = 9116
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "35th Engineer Brigade"
+		location = 9116
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+		start_manpower_factor = 0.6
+	}
+	
+
+	division = {
+		name = "Rossiyskiye Voyska Interventsii N1"
+		location = 2004
+		division_template = "Russian Volunteers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Rossiyskiye Voyska Interventsii N2"
+		location = 5453
+		division_template = "Russian Volunteers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	
+	#30
+	division = {
+		name = "Rossiyskiye Voyska Interventsii N3"
+		location = 185
+		division_template = "Russian Volunteers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "Proud Boy Militia 1"
+		location = 1766
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 2"
+		location = 1484
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 3"
+		location = 1077
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 4"
+		location = 4486
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+		division = {
+		name = "Proud Boy Militia 5"
+		location = 2217
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 6"
+		location = 3655
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 7"
+		location = 8729
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 8"
+		location = 1392
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 9"
+		location = 2593
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+	division = {
+		name = "Proud Boy Militia 10"
+		location = 9696
+		division_template = "Proud Boy Militias"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1
+	}
+}

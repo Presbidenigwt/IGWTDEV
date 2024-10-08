@@ -1,0 +1,24 @@
+
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		2501 6591 12045 12050 
+	}
+	history={
+		owner = CAN
+		add_core_of = CAN
+
+		buildings = {
+			infrastructure = 3
+
+			2501 = {
+				naval_base = 1
+			}
+		}
+	}
+ 
+ state_category=tiny_island
+ manpower=4761
+	buildings_max_level_factor=1.000
+}

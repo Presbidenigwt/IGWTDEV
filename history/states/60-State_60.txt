@@ -1,0 +1,31 @@
+
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		139 4405 4983 5414 7081 7090 7094 7119 7120 7141 7156 
+	}
+	history={
+		owner = CAS
+		add_core_of = CAS
+		add_core_of = LIB
+		
+		victory_points = {
+			139 1 #Mt Vernon
+		}
+		victory_points = {
+			7119 3 #Marysville
+		}
+		victory_points = {
+			7090 1 #Arlington
+		}
+		buildings = {
+			infrastructure = 7
+		}
+	}
+ 
+ 
+ state_category=rural
+ manpower=31600
+	buildings_max_level_factor=1.000
+}

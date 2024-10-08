@@ -1,0 +1,20 @@
+
+state={
+	id=457
+	name="STATE_457"
+	provinces={
+		61 160 1525 2014 2021 2931 4267 5753 
+	}
+			history={
+		owner = COS
+		add_core_of = COS
+		buildings = {
+			infrastructure = 5
+		}
+	}
+ 
+ 
+ state_category=town 
+ manpower=2692936
+	buildings_max_level_factor=1.000
+}

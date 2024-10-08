@@ -1,0 +1,126 @@
+#made by ivy uwu
+ARK_support = {
+	allowed = {
+		OR = {
+			original_tag = USA
+			original_tag = IDA
+		}
+	}
+	enable = {
+		country_exists = ARK
+	}
+	abort = {
+		NOT = { country_exists = ARK }
+	}
+	
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "ARK"
+		value = 500
+	}
+	ai_strategy = {
+		type = support
+		id = "ARK"
+		value = 200
+	}
+}
+
+
+USA_democrat_bad = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		country_exists = FRA
+	}
+	abort_when_not_enabled = yes
+	
+	ai_strategy = {
+
+		type = antagonize
+		id = FRA			
+		value = 200
+	}
+	
+	ai_strategy = {
+		type = prepare_for_war
+		id = FRA
+		value = 100
+	}
+}
+
+USA_FRA_war = {
+	allowed = {
+		original_tag = USA
+	}
+	enable = {
+		has_war_with = FRA
+	}
+	abort_when_not_enabled = yes
+
+	
+	ai_strategy = {
+		type = conquer
+		id = FRA			
+		value = 250
+	}
+}
+
+USA_get_help = {
+	allowed = {
+		NOT = {
+			is_major = yes
+			is_ally_with = FRA #We really need ai strategy regions
+			tag = HAM
+			tag = MIN
+			tag = MIL
+			tag = FIR
+			tag = NEW
+			tag = TIM
+			tag = VIR
+			tag = NRA
+			tag = AFS
+			tag = NPA
+		}
+	}
+	enable = {
+		has_war_with = FRA
+		USA = { has_war_with = FRA}
+		is_in_faction_with = USA
+		any_neighbor_country = {
+			NOT = {has_war_with = ROOT}
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = "USA"
+		value = 300
+	}
+		
+
+}
+
+USA_IDA_red_war = {
+	allowed = {
+		OR = {
+			tag = CAS
+			tag = UTA
+			tag = HOP
+			tag = MOL
+			tag = ALA
+			tag = LAS
+			tag = SIN
+			tag = bjc
+		}		
+	}
+	enable = {
+		has_country_flag = temp_alliance
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = { 
+    		type = alliance
+		id = IDA
+		value = 200
+	}
+}

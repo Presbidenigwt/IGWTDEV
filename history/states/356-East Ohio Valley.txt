@@ -1,0 +1,44 @@
+
+state={
+	id=356
+	name="STATE_356"
+	provinces={
+		1578 2226 2648 2701 2705 2743 4096 4332 4556 5261 5520 5843 5836 6120 9081 9104 9113 9129 9153 9175 9196 9197 9203 9216 9217 9230 9231 9251 9298 9305 9319 9325 9330 9237 5387 1979 9158 9114 2214 9082
+	}
+
+	resources={
+		oil = 2
+		rubber = 63
+		aluminium = 5
+		steel = 29
+	}
+
+	history={
+		owner = NRA
+		add_core_of = NRA
+
+		buildings = {
+			synthetic_refinery = 2
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		victory_points = { #Clarksburg
+		5843 2 
+		}
+		victory_points = { #Fairmont
+		9158 2
+		}
+		victory_points = { #Morgantown
+		9114 3
+		}
+		victory_points = { #Parkersburg
+		9175 3
+		}
+		victory_points = {
+			5836 15 #Charleston
+		}
+	}
+ state_category=city 
+ manpower=835599
+	buildings_max_level_factor=1.000
+}

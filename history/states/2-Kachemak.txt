@@ -1,0 +1,32 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		6016 
+	}
+	resources={
+		oil = 75
+	}
+	history={
+		owner = 
+		add_core_of = PAC
+		add_core_of = ALA
+		victory_points = {
+			6016 30
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 1
+			6016 = {
+				naval_base = 5
+			}
+		}
+	}
+ 
+ 
+ state_category=city
+ manpower=350472
+	buildings_max_level_factor=1.000
+}

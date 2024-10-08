@@ -1,0 +1,21 @@
+state={
+	id=440
+	name="Kahoolawe"
+	provinces={
+		11930 
+	}
+	history={
+		owner = PAC
+		add_core_of = PAC
+		buildings = {
+			infrastructure = 1
+			11930 = {
+				naval_base = 1
+			}
+		}
+	}	
+ 
+ 
+ state_category=tiny_island
+ manpower=1
+}

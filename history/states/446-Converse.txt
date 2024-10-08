@@ -1,0 +1,24 @@
+
+state={
+	id=446
+	name="STATE_446"
+	provinces={
+		716 1484 4110 5271 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = MON
+		add_core_of = LAK
+		add_core_of = ABS
+		add_core_of = IDA
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+ 
+ state_category=wasteland 
+ manpower=6783
+	buildings_max_level_factor=1.000
+}

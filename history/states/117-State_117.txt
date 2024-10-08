@@ -1,0 +1,38 @@
+
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		346 992 1060 1229 1234 1313 1320 2713 2747 3328 3423 3724 3745 4100 4106 4402 6318 6392 9046 9101 
+	}
+
+	resources={
+		tungsten = 1
+	}		
+
+		history={
+		owner = UTA
+		add_core_of = UTA
+		victory_points = {
+			4402 2 #Elko
+		}
+		victory_points = {
+			9046 1 #Ely
+		}
+		victory_points = {
+			3423 1 #Wendover
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+
+	}
+ 
+ 
+ state_category=rural
+ manpower=41175
+	buildings_max_level_factor=1.000
+}

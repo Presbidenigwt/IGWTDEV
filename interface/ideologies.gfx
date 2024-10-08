@@ -1,0 +1,51 @@
+spriteTypes = {
+	
+	#New ideologies 
+	#Liberal
+	spriteType = {
+		name = "GFX_ideology_liberal_group"
+		texturefile = "gfx/interface/ideologies/liberal_subideology.dds"
+	}
+	#spriteType = {
+		name = "GFX_ideology_Authoritative_Democracy"
+		texturefile = "gfx/interface/ideologies/despotism.dds"
+	}
+
+	#Fascist
+	spriteType = {
+		name = "GFX_ideology_neonazism"
+		texturefile = "gfx/interface/ideologies/neonazism.dds"
+	}
+	
+
+	
+	#conservative
+	spriteType = {
+		name = "GFX_ideology_democrat_group"
+		texturefile = "gfx/interface/ideologies/democrat_subideology.dds"
+		}
+
+	
+
+	#communism"
+	spriteType = {
+		name = "GFX_ideology_communism"
+		texturefile = "gfx/interface/ideologies/communism.dds"
+	}
+	
+
+	
+	#Moderateleft
+	spriteType = {
+		name = "GFX_ideology_democratic_socialism"
+		texturefile = "gfx/interface/ideologies/socialist_left_wing_nationalism_subtype.dds
+		
+		}
+		
+	#authdem
+	spriteType = {
+		name = "GFX_ideology_democrat_group"
+		texturefile = "gfx/interface/ideologies/democrat_subideology.dds"
+        }
+		
+	}

@@ -1,0 +1,33 @@
+
+state={
+	id=122
+	name="STATE_122"
+	provinces={
+		196 5255 7318 7370 7408 7440 
+	}
+	history={
+	victory_points = {
+	196 15
+	}
+	victory_points = {
+			5255 1 #Yelms
+		}
+		owner = CAS
+		add_core_of = CAS
+		add_core_of = LIB
+		
+		buildings = { 
+			industrial_complex = 3
+			infrastructure = 9
+			radar_station = 8
+			
+			196 = {
+				naval_base = 6
+			}
+
+		}
+	}
+	manpower=290536
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

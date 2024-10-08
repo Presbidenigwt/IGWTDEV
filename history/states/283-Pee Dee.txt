@@ -1,0 +1,32 @@
+
+state={
+	id=283
+	name="STATE_283"
+	provinces={
+		270 1519 2017 2044 2052 2967 3000 3616 4085 4810 5188 5428 6183 6290 6330 6377 10124 10131 10135 10155 10159 10188 10197 10203 10229 10236 10268 10281 10318 19540
+	}
+
+	resources={
+		steel = 13
+	}
+	history={
+		owner = CSA
+		add_core_of = CSA
+		
+		victory_points = { #Columbia
+			10203 10
+		}
+		victory_points = { #florence
+			5428 5
+		}
+		
+		buildings = {
+			arms_factory = 1 #FN
+			infrastructure = 6
+		}
+
+	}
+ state_category=town 
+ manpower=1125438
+	buildings_max_level_factor=1.000
+}

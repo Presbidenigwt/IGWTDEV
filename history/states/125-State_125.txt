@@ -1,0 +1,66 @@
+
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		602 2528 5205 5305 7166 7173 7185 7199 7226 19608 19609
+	}
+
+	resources={
+		steel = 29
+		rubber = 5
+	}
+
+	history={
+		owner = PRA
+		add_core_of = PRA
+		add_core_of = CAS
+		add_core_of = LIB
+		add_core_of = SAZ
+
+		victory_points = {
+			602 25 #Seattle
+		}
+		victory_points = {
+			2528 5 #Everett
+		}
+		victory_points = {
+			7173 5 #Northern Seattle
+		}
+		victory_points = {
+			5205 2 #Lynwood
+		}
+		victory_points = {
+			19609 5 #Bellevue
+		}
+		victory_points = {
+			19608 4 #Renton
+		}
+		victory_points = {
+			7166 1 #Monroe
+		}
+		victory_points = {
+			7199 3 #Redmond
+		}
+		victory_points = {
+			7226 4 #Snoqualmie 
+		}
+        buildings = {
+		infrastructure = 9
+		industrial_complex = 8
+		dockyard = 2
+		602 = {
+			naval_base = 8
+		}
+		7173 = {
+			naval_base = 7
+		}
+		}
+		
+	}
+ 
+ 
+ state_category=megalopolis  
+ manpower=3979845
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=325
+	name="STATE_325"
+	provinces={
+		1918 10423 10452 10502 10534 
+	}
+	history={
+		owner = CSA
+		add_core_of = CSA
+		victory_points = { #hilton head island
+			10502 3
+		}
+		buildings={
+			infrastructure = 3
+		}
+	}
+ 	state_category=town 
+ 	manpower=187010
+	buildings_max_level_factor=1.000
+}

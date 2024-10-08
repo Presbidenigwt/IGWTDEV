@@ -1,0 +1,49 @@
+
+state={
+	id=310
+	name="STATE_310"
+	provinces={
+		55 447 521 830 1195 1276 1448 1575 1690 1739 1883 2476 2868 2910 3110 3165 3187 3200 3367 3462 5955 5986 6322 6408 9841 9945 10092 10127 10254 10302 10380 10504 10524 
+	}
+
+	resources={
+		steel = 9
+	}
+
+	history={
+		owner = TEX
+		add_core_of = NMX
+		
+		buildings = {
+			infrastructure = 5
+			air_base = 10
+			radar_station = 3
+		}
+
+		victory_points = {
+			1276 20 #Albuquerque
+		}
+		victory_points = {
+			6322 4 #Santa Fe
+		}
+		victory_points = {
+			521 5 #Las Cruces
+		}
+		victory_points = {
+			55 2 #Alamogorda
+		}
+		victory_points = {
+			2868 2 #Carlsbad
+		}
+		victory_points = {
+			2476 1 #Artesia
+		}
+		victory_points = {
+			3187 2 #Roswell
+		}
+	}
+
+ state_category=city 
+ manpower=1141914
+	buildings_max_level_factor=1.000
+}

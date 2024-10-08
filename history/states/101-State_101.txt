@@ -1,0 +1,22 @@
+
+state={
+	id=101
+	name="STATE_101"
+	provinces={
+		1591 5536 7017
+	}
+	history={
+		owner = CAS
+		add_core_of = CAS
+		add_core_of = LIB
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+ 
+ 
+ state_category=rural
+ manpower=27200
+	buildings_max_level_factor=1.000
+}

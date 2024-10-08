@@ -1,0 +1,23 @@
+state={
+	id=216
+	name="STATE_216"
+	provinces={
+		4780 
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+		#add_core_of = WMS
+
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+        	4780 2
+        }
+	}
+
+ state_category=tiny_island
+ manpower=14255
+	buildings_max_level_factor=1.000
+}

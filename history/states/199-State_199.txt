@@ -1,0 +1,28 @@
+state={
+	id=199
+	name="STATE_199"
+	provinces={
+		161 3281 3982 4480 8605 8655 8727 
+	}
+		history={
+		owner = PRA
+		add_core_of = PRA
+
+		victory_points = {
+			161 1 #Crescent City
+		}
+		buildings = {
+			infrastructure = 4
+			161 = {
+				bunker = 4
+			}
+			8605 = {
+				bunker = 4
+			}
+		}
+	}
+ 
+ state_category=rural
+ manpower=71300
+	buildings_max_level_factor=1.000
+}

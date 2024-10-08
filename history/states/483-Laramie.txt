@@ -1,0 +1,30 @@
+
+state={
+	id=483
+	name="STATE_483"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = IDA
+		victory_points = {
+			1095 3 
+		}
+		victory_points = {
+			8756 2 
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		799 1095 3546 4866 5339 6169 8756 
+	}
+	manpower=293174
+	buildings_max_level_factor=1.000
+	state_category=town
+}

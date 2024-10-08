@@ -1,0 +1,471 @@
+##########################################################
+# UwU
+##########################################################
+
+
+division_template = {
+    name = "National Guard"
+#    division_names_group =
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+    name = "Militia"
+#    division_names_group =
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+division_template = {
+    name = "Motorized Infantry"
+#    division_names_group =
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+	}
+}
+
+
+
+division_template = {
+    name = "Southern Guard"
+#    division_names_group =
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		mechanized = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		mechanized = { x = 1 y = 4 }
+	}
+}
+########################################################
+
+units = {
+	division = {
+		name = "1st Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "2nd Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "4th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "5th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "6th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
+	}
+
+	division = {
+		name = "7th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "8th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "9th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "10th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "11th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "13th Confederate Guard"
+		location = 5553
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
+	}
+
+	division = {
+		name = "1st Militia Group"
+		location = 2099
+		division_template = "Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
+	}
+	division = {
+		name = "2nd Militia Group"
+		location = 2099
+		division_template = "Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
+	}
+	division = {
+		name = "3rd Militia Group"
+		location = 4
+		division_template = "Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
+	}
+
+	division = {
+		name = "4th Militia Group"
+		location = 10966
+		division_template = "Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
+	}
+
+	division = {
+		name = "5th Militia Group"
+		location = 5032
+		division_template = "Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
+	}
+
+	division = {
+		name = "6th Militia Group"
+		location = 9800
+		division_template = "Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+
+	division = {
+		name = "7th Militia Group"
+		location = 9800
+		division_template = "Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	
+
+	division = {
+		name = "1st Southern Guard"
+		location = 9734
+		division_template = "Southern Guard"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "2nd Southern Guard"
+		location = 2695
+		division_template = "Southern Guard"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "3rd Southern Guard"
+		location = 1355
+		division_template = "Southern Guard"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "4th Southern Guard"
+		location = 9783
+		division_template = "Southern Guard"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "5th Southern Guard"
+		location = 3597
+		division_template = "Southern Guard"
+		start_experience_factor = 1
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "1st Graduation Division"
+		location = 4343
+		division_template = "Motorized Infantry"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "2nd Yeezus Division"
+		location = 78
+		division_template = "Motorized Infantry"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "3rd College Dropout Division"
+		location = 78
+		division_template = "Motorized Infantry"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "4th Donda Division"
+		location = 9848
+		division_template = "Motorized Infantry"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	
+	division = {
+		name = "Southern Veteran Division"
+		location = 9816
+		division_template = "Motorized Infantry"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "14th Confederate Guard"
+		location = 2386
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "15th Confederate Guard"
+		location = 2386
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "16th Confederate Guard"
+		location = 5681
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "17th Confederate Guard"
+		location = 6163
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "18th Confederate Guard"
+		location = 9942
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "19th Confederate Guard"
+		location = 9830
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "20th Confederate Guard"
+		location = 6062
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "21st Confederate Guard"
+		location = 6062
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+	division = {
+		name = "22nd Confederate Guard"
+		location = 1341
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.9
+	}
+
+	division = {
+		name = "8th Militia Group"
+		location = 10799
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "9th Militia Group"
+		location = 10947
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "10th Militia Group"
+		location = 10984
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "11th Militia Group"
+		location = 1989
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "12th Militia Group"
+		location = 3412
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+
+	division = {
+		name = "13th Militia Group"
+		location = 10799
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "14th Militia Group"
+		location = 2395
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "15th Militia Group"
+		location = 10984
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "16th Militia Group"
+		location = 1989
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+	division = {
+		name = "17th Militia Group"
+		location = 3412
+		division_template = "Militia"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.6
+	}
+}

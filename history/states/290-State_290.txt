@@ -1,0 +1,32 @@
+
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		78 900 1085 2473 3453 3524 3588 3693 3887 3921 5085 5352 5406 5416 5553 5578 5841 5934 6136 10149 10169 10263 10279 10324 10367 10388 10406 10435 10445 10450 10489
+	}
+
+	resources={
+		steel = 12
+	}
+		history={
+		owner = CSA
+		add_core_of = CSA
+		
+		buildings = {
+			arms_factory = 4 #Daniel Defence & H&K
+			infrastructure = 6
+		}
+		victory_points = { #Augusta
+		3524 20 }
+		victory_points = { #Athens
+		3693 10 }
+		victory_points = { #Waynesboro
+		5578 1 }
+		victory_points = { #Greensboro
+		5841 1 }
+	}
+ state_category=large_town 
+ manpower=944784
+	buildings_max_level_factor=1.000
+}

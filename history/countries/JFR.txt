@@ -1,0 +1,23 @@
+capital = 9132
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_politics = {
+	ruling_party = fascist
+	last_election = "2019.4.2"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	fascist = 100
+}
+
+### Country Leaders ###
+recruit_character = JFR_willis_carto
+
+### Generals ###
+

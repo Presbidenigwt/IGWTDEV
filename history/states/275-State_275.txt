@@ -1,0 +1,20 @@
+state={
+	id=275
+	name="STATE_275"
+	provinces={
+		12153 12155 12156 
+	}
+		history={
+		owner = CSA
+		add_core_of = CSA
+
+		buildings={
+			infrastructure = 4
+		}
+	}	
+ 
+ 
+ state_category=tiny_island 
+ manpower=23000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+characters={
+
+	JFR_willis_carto = {
+		name = JFR_willis_carto
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JFR/willis_carto.dds
+			}
+		}
+		country_leader = {
+			traits = { }
+			ideology = fascism
+			expire = "2060.1.1.1"
+			id = -1
+		}
+	}
+    }

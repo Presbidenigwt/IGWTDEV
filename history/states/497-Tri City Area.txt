@@ -1,0 +1,30 @@
+
+state={
+	id=497
+	name="STATE_497"
+	provinces={
+		19611 19612 19613
+	}
+	history={
+		owner = LIB
+		add_core_of = CAS
+		add_core_of = LIB
+		victory_points = {
+			19611 3 #Kennewick
+		}
+		victory_points = {
+			19612 1
+		}
+		victory_points = {
+			19613 2
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=283846
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

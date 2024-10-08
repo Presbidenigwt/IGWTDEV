@@ -1,0 +1,24 @@
+
+state={
+	id=76
+	name="STATE_76"
+
+	history={
+		owner = CAN
+		add_core_of = CAN
+		add_core_of = WPC
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		998 2591 2615 3803 
+	}
+	manpower=1418118
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

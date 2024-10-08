@@ -1,0 +1,37 @@
+state={
+	id=198
+	name="STATE_198"
+	provinces={
+		4960 5094 8544 
+	}
+
+	resources={
+		rubber = 58
+	}
+
+	history={
+		owner = ISA
+		add_core_of = AFS
+		add_core_of = GLA
+		add_core_of = ISA
+		add_core_of = NPA
+
+		victory_points = {
+			5094 50 #Chicago
+		}
+		buildings = {
+			infrastructure = 10
+			industrial_complex = 8
+			dockyard = 1
+			synthetic_refinery = 3
+
+			5094 = {
+				naval_base = 9
+			}
+		}
+	}
+
+ state_category=megalopolis
+ manpower=4490400
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=286
+	name="STATE_286"
+	resources={
+		oil=84.000
+	}
+
+	history={
+		owner = TEX
+		add_core_of = TEX
+		victory_points = {
+			3036 5 
+		}
+		victory_points = {
+			3334 5 
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		530 1006 1279 1285 3036 3334 3787 3858 3954 5218 5772 6133 10480 10483 10510 10536 10569 10585 10591 10683 
+	}
+	manpower=516461
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

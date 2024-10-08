@@ -1,0 +1,40 @@
+
+state={
+	id=165
+	name="STATE_165"
+	provinces={
+		5411 8524 8547 8446
+	}
+
+	resources={
+		rubber = 5
+	}
+
+	history={
+		owner = DET
+		add_core_of = DET
+		add_claim_by = GLA
+
+		victory_points = {
+			8547 3 #Taylor
+		}
+		victory_points = {
+			8524 10 #Ann Arbor
+		}
+		victory_points = {
+			5411 5 #Livonia
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 6
+
+			8547 = {
+				naval_base = 5
+			}
+		}
+	}
+
+	state_category=large_city
+ manpower=496812
+	buildings_max_level_factor=1.000
+}

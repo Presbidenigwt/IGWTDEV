@@ -1,0 +1,36 @@
+
+state={
+	id=266
+	name="STATE_266"
+	provinces={
+		1311 1327 1640 2778 3218 3861 4348 4437 4488 4783 4895 5270 5595 5940 6317 9721 9729 9747 9760 9764 9802 9823 9828 9833 9867 9891 9978 
+	}
+		history={
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = APA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { #Boone
+		9802 1 }
+		victory_points = { #Asheville
+		5595 3 }
+		victory_points = { #Waynesville
+		3218 1 }
+		victory_points = { #Franklin
+		9978 1 }
+		victory_points = { #Murphy
+		5940 1 }
+		victory_points = { #Lenoir
+		9823 1 }
+
+		buildings = {
+			arms_factory = 1
+		}
+	}
+
+ state_category=town 
+ manpower=1946973
+	buildings_max_level_factor=1.000
+}

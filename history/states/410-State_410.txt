@@ -1,0 +1,34 @@
+
+state={
+	id=410
+	name="STATE_410"
+	provinces={
+		90 336 1138 1730 3782 4982 5078 9349 9393 19532 9220 9307 3299 195 1094
+	}
+		history={
+		owner = UTA
+		add_core_of = UTA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		victory_points = {
+			5078 5 #St. George
+		}
+		victory_points = {
+			9393 1 #Cedar City
+		}
+		victory_points = {
+			90 1 #Parowan
+		}
+		victory_points = {
+			3782 1 #Richfield
+		}
+	}
+ 
+ 
+ state_category=town
+ manpower=154432
+	buildings_max_level_factor=1
+}

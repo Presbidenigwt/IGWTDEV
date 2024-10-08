@@ -1,0 +1,31 @@
+
+state={
+	id=282
+	name="STATE_282"
+	provinces={
+		2733 3079 3360 4312 4313 4490 5141 5720 10003 10013 10038 10072 10130 19538 9965
+	}
+		history={
+		owner = CSA
+		add_core_of = CSA
+
+		victory_points = { #Greenville
+			10038 10
+		}
+		victory_points = { #Spartanburg
+			5720 5
+		}
+		victory_points = { #Union
+			10130 3
+		}
+
+		buildings = {
+			arms_factory = 1 #FN
+			infrastructure = 8
+		}
+
+	}
+ state_category=town 
+ manpower=651779
+	buildings_max_level_factor=1.000
+}

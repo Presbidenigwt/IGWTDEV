@@ -1,0 +1,374 @@
+division_template = {
+    name = "People's Army Division"
+#    division_names_group =
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+    name = "Antifa Brigade"
+#    division_names_group =
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+        artillery = { x = 0 y = 0 }			
+	}
+}
+division_template = {
+    name = "National Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+########################################################
+
+units = {
+	# California National Guard #
+	division = {
+		name = "100th Troop Command"
+		location = 9509
+		division_template = "National Guard"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "79th Infantry Brigade Combat Team"
+		location = 9509
+		division_template = "National Guard"
+		start_experience_factor = 0.9
+		start_equipment_factor = 0.9
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "224th 'Dragon Slayers' Sustainment Brigade"
+		location = 5634
+		division_template = "National Guard"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "49th Military Police Brigade"
+		location = 8636
+		division_template = "National Guard"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+		start_manpower_factor = 1.0
+	}
+	# Nevada National Guard #
+	division = {
+		name = "991st Multi-Functional Brigade"
+		location = 9048
+		division_template = "National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st 'The People's Guard' Antifa Brigade"
+		location = 9509
+		division_template = "Antifa Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.4
+	}
+	division = {
+		name = "2nd 'Action Assured' Antifa Brigade"
+		location = 9509
+		division_template = "Antifa Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd 'Berkely's Own' Antifa Brigade"
+		location = 5634
+		division_template = "Antifa Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "4th 'Free Roses' Antifa Brigade"
+		location = 3685
+		division_template = "Antifa Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+		start_manpower_factor = 0.4
+	}
+	division = {
+		name = "1st 'Golden Gate' People's Army Division"
+		location = 161
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd 'Bay Walkers' People's Army Division"
+		location = 8605
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd 'Red Guard' People's Army Division"
+		location = 8627
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "4th People's Army Division"
+		location = 8656
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "5th 'Green' People's Army Division"
+		location = 4998
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd Infantry Green Guard Division"
+		location = 8636
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd Infantry Green Guard Division"
+		location = 8605
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st People's Vanguard Division"
+		location = 8612
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+		division = {
+		name = "2nd People's Vanguard Division"
+		location = 3073
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd People's Vanguard Division"
+		location = 8613
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st Red Army Division"
+		location = 2523
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd Red Army Division"
+		location = 1284
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd Red Army Division"
+		location = 2814
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st QLA Division"
+		location = 8796
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd QLA Division"
+		location = 8848
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd QLA Division"
+		location = 872
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+		division = {
+		name = "1st Green Army Division"
+		location = 9133
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st LA Division"
+		location = 8607
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd LA Division"
+		location = 4350
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	
+	#Greater Seattle
+	division = {
+		name = "1st Revolutionary Guard Division"
+		location = 7173
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd Revolutionary Guard Division"
+		location = 602
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd Revolutionary Guard Division"
+		location = 5305
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st Seattle Rifles Brigade"
+		location = 7173
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd Seattle Rifles Brigade"
+		location = 602
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd Seattle Rifles Brigade"
+		location = 5305
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st Popular Division"
+		location = 7173
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "2nd Popular Division"
+		location = 602
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "3rd Popular Division"
+		location = 5305
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "4th Popular Division"
+		location = 7173
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "5th Popular Division"
+		location = 602
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "6th Popular Division"
+		location = 5305
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+	division = {
+		name = "1st Seattle Division"
+		location = 5305
+		division_template = "People's Army Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.8
+	}
+}

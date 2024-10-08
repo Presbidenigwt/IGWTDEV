@@ -1,0 +1,48 @@
+
+state={
+	id=55
+	name="STATE_55"
+	resources={
+		steel=28.000
+		oil=57.000
+		rubber=13.000
+	}
+
+	history={
+		owner = TEX
+		add_core_of = TEX
+		victory_points = {
+			10924 50 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 2
+			synthetic_refinery = 1
+			fuel_silo = 6
+			5022 = {
+				naval_base = 5
+
+			}
+			10973 = {
+				naval_base = 4
+
+			}
+			11015 = {
+				naval_base = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1807 3233 3669 3692 3948 3955 4296 4547 4968 5009 5022 5460 6151 6222 10766 10797 10802 10836 10838 10848 10886 10893 10915 10924 10945 10957 19546 10887
+	}
+	manpower=4982753
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

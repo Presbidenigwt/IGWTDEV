@@ -1,0 +1,22 @@
+
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		3805 4360 7110 7000 7037 1368
+	}
+	history={
+		owner = CAS
+		add_core_of = CAS
+		add_core_of = LIB
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+ 
+ 
+ state_category=enclave
+ manpower=2700
+	buildings_max_level_factor=1.000
+}

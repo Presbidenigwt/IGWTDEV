@@ -1,0 +1,23 @@
+state={
+	id=257
+	name="STATE_257"
+	provinces={
+		492 2593 9711 9852 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = OKL
+        
+		victory_points = {
+            492 1 #Tahlequah
+        }
+
+        buildings = {
+			infrastructure = 5
+		}
+	}
+ state_category=pastoral
+ manpower=156879
+	buildings_max_level_factor=1.000
+}

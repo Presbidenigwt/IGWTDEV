@@ -1,0 +1,38 @@
+state={
+	id=271
+	name="STATE_271"
+	provinces={
+		285 1039 1210 1985 2268 3335 3344 3443 4387 5302 5846 6084 6448 9861 9862 9889 9890 9893 9903 9911 9927 9932 9950 9956 9968 9991 
+	}
+
+	resources={
+		steel = 23
+		rubber = 5
+	}
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+		buildings={
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			285 16
+		}
+		victory_points = {
+			6084 4
+		}
+		victory_points = {
+			4387 4
+		}
+		victory_points = {
+			9911 4
+		}
+	}
+ 
+ 
+ state_category=rural
+ manpower=548221
+	buildings_max_level_factor=1.000
+}

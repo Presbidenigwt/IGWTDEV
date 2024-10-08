@@ -1,0 +1,43 @@
+
+state={
+	id=316
+	name="STATE_316"
+	provinces={
+		10885 6372 2262 10878 10904 4878 4171 19553
+	}
+
+	resources={
+		oil = 19
+		steel = 18
+	}
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = LOU
+        victory_points = { #New Orleans
+            6372 30
+        }
+        victory_points = {
+            4878 14
+        }
+        victory_points = {
+            10885 10
+        }
+        buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			arms_factory = 2
+			dockyard = 6
+			fuel_silo = 6
+			radar_station = 3
+			anti_air_building = 3
+			6372 = {
+				naval_base = 5
+			}
+        }
+	}
+ state_category=large_city
+ manpower=1271845
+	buildings_max_level_factor=4
+}

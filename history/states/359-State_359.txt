@@ -1,0 +1,19 @@
+
+state={
+	id=359
+	name="STATE_359"
+	provinces={
+         11263 
+	}
+		history={
+		owner = TEX
+		add_core_of = TEX
+		buildings = {
+			infrastructure = 2
+                 }
+
+	}
+ state_category=wasteland
+ manpower=156
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,38 @@
+guiTypes = {
+		
+	containerWindowType = {
+		name = "MAA_subid_diplo"
+		position = { x = 0 y = 0}
+		
+		instantTextboxType = {
+			name = "subideology_name"
+			position = { x = 263 y = 145 }
+			font = "hoi_16mbs"
+			text = "[GetSubIdeologyLoc]"
+			maxWidth = 300
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "MAA_subid_politics"
+		position = { x = 88 y = 305 }
+		
+		instantTextboxType = {
+			name = "subideology_name"
+			position = { x = 9 y = 6 }
+			font = "hoi_18mbs"
+			text = "[GetSubIdeologyLoc]"
+			maxWidth = 300
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+}

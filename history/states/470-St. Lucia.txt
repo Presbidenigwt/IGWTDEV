@@ -1,0 +1,27 @@
+state={
+	id=470
+	name="STATE_470"
+	provinces={
+		4964 11936 
+	}
+	history={
+		owner = BEF
+		add_core_of = BEF
+		add_core_of = SLC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			11936 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+           11936 10
+        }
+	}
+ 
+ 
+ state_category=town 
+ manpower=182790
+	buildings_max_level_factor=1.000
+}

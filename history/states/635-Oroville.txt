@@ -1,0 +1,22 @@
+state={
+	id=635
+	name="STATE_635"
+	history={
+		owner = JFR
+		add_core_of = JFR
+		
+		victory_points = { #Oroville (victory point is scaled this way to make it the capital)
+			9132 6
+		}
+		victory_points = { #Chico
+			9079 5 
+		}
+	}
+	provinces={
+		2639 4060 4212 6070 9051 9079 9132 9170 9176
+	}
+	state_category=town
+	manpower=219186
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

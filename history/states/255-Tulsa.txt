@@ -1,0 +1,33 @@
+state={
+	id=255
+	name="STATE_255"
+	provinces={
+		2288 3228 
+	}
+
+	resources={
+		steel = 8
+		rubber = 2
+	}
+
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = OKL
+
+		victory_points = {
+            3228 20 #Tulsa
+        }
+		victory_points = {
+            2288 2 #Bartlesville
+        }
+
+                 buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+                 }
+	}
+ state_category=town
+ manpower=740364
+	buildings_max_level_factor=1.000
+}

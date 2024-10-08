@@ -1,0 +1,21 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		4858 4367 7341
+	}
+	history={
+		owner = CAN
+		add_core_of = NEW
+
+		set_demilitarized_zone = yes
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+ state_category=enclave 
+ manpower=218
+	buildings_max_level_factor=1.000
+}

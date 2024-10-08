@@ -1,0 +1,29 @@
+
+state={
+	id=245
+	name="STATE_245"
+	provinces={
+		233 614 3332 8838 8914 
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		#add_core_of = RNJ
+		
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			233 10
+		}
+		victory_points = {
+			8914 6
+		}
+	}
+ 
+	manpower=1237446
+	state_category=city
+	buildings_max_level_factor=1.000
+	
+}

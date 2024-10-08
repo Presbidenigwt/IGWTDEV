@@ -1,0 +1,37 @@
+
+state={
+	id=335
+	name="STATE_335"
+	provinces={
+		43 403 1346 1626 1673 1727 1832 3673 4750 4922 5806 6031 6396 9959 9989 10063 10152 10288 
+	}
+
+	resources={
+		oil = 28
+		chromium = 424
+	}
+
+	history={
+		owner = TEX
+		add_core_of = NMX
+
+		buildings = {
+			infrastructure = 5
+			air_base = 4
+		}
+
+		victory_points = {
+			6133 2 #Hobbs
+		}
+		victory_points = {
+			1346 1 #Lovington
+		}
+		victory_points = {
+			10152 2 #Clovis
+		}
+
+	}
+ state_category=rural 
+ manpower=146837
+	buildings_max_level_factor=1.000
+}

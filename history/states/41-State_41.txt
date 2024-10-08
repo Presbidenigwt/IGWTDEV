@@ -1,0 +1,31 @@
+
+state={
+	id=41
+	name="STATE_41"
+	provinces={
+		966 1632 2217 2393 7060 19475 5421 378
+	}
+
+	resources={
+		oil = 16
+	}
+
+		history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = DAK
+			
+		buildings = {
+			infrastructure = 4
+			air_base = 7
+			radar_station = 3
+			anti_air_building = 4	
+		}
+		victory_points = {
+			1632 2 #Minot
+		}
+	}
+ state_category=rural
+ manpower=85431
+	buildings_max_level_factor=1.000
+}

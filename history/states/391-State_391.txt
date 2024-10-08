@@ -1,0 +1,25 @@
+state={
+	id=391
+	name="STATE_391"
+	provinces={
+		6224 11550 11553 11563 11575 
+	}
+			history={
+		owner = CUB
+		add_core_of = CUB
+
+		buildings = {
+			infrastructure = 3
+			6224 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			6224 2 #Nueva Gerona
+		}
+
+	}
+ state_category=pastoral 
+ manpower=83544
+}

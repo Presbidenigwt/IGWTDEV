@@ -1,0 +1,35 @@
+
+state={
+	id=185
+	name="STATE_185"
+	provinces={
+		215 666 813 1225 1335 1423 1681 1746 1818 2173 2480 2507 2864 3150 3402 3723 4290 5233 5517 5832 8277 8396 8482 8620 8690 8715 8857 8909 
+	}
+
+	resources={
+		rubber = 2
+	}
+
+		history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = IOW
+		add_core_of = NPA
+
+		victory_points = {
+			1335 3 #West Des Moines
+		}
+		victory_points = {
+			8482 4 #Sioux City
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 1
+		}
+	}
+
+ state_category=city 
+ manpower=891600
+	buildings_max_level_factor=1.000
+}

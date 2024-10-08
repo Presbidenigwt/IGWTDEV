@@ -1,0 +1,25 @@
+
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		721 1853 5441 
+	}
+	history={
+		owner = CAS
+		add_core_of = CAS
+		add_core_of = LIB
+		
+		victory_points = {
+			5441 4 #Yakima
+		}
+		buildings = {
+			infrastructure = 5
+		}
+	}
+ 
+ 
+ state_category=large_town
+ manpower=204400
+	buildings_max_level_factor=1.000
+}

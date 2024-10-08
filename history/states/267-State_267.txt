@@ -1,0 +1,40 @@
+state={
+	id=267
+	name="STATE_267"
+	provinces={
+		1610 1651 2317 2563 2684 5032 9758 9790 9902 2058 3790 9798 1992 6291
+	}
+
+	resources={
+		steel = 16
+		aluminium = 12
+	}
+
+	history={
+		owner = CSA
+		add_core_of = CSA
+	buildings = {
+			infrastructure = 6
+			air_base = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			9902 1 #Clarksville
+		}
+		victory_points = {
+			5032 5 #Fayetteville
+		}
+		victory_points = {
+			2317 1 #Harrison
+		}
+		victory_points = {
+			6291 1 #Mountain Home
+		}
+		victory_points = {
+			1992 1 #Batesville
+		}
+	}
+ state_category=town 
+ manpower=706791
+	buildings_max_level_factor=1.000
+}

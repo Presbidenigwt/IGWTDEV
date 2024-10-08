@@ -1,0 +1,33 @@
+
+state={
+	id=447
+	name="STATE_447"
+	provinces={
+		296 311 332 870 948 962 1322 1778 3268 4434 5325 5530 6147 7934 8084 8157 8305 
+	}
+	history={
+		owner = USA
+		add_core_of = USA
+		add_core_of = MON
+		add_core_of = ABS
+		add_core_of = LAK
+		add_core_of = IDA
+
+		victory_points = {
+			296 1 #Spearfish
+		}
+		victory_points = {
+			1778 2 #Gilette
+		}
+
+		buildings = {
+			infrastructure = 5
+		}
+
+	}
+ 
+ 
+ state_category=rural 
+ manpower=99102
+	buildings_max_level_factor=1.000
+}

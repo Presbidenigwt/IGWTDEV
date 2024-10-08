@@ -1,0 +1,52 @@
+
+state={
+	id=409
+	name="STATE_409"
+	provinces={
+		2727 3046 4561 4913 4963 5918 11801 11802 11807 11815 11827 11839 11840 11846 11852 11855 11857 
+	}
+
+	resources={
+		oil = 5
+		steel = 5
+		aluminium = 3
+	}
+
+	history={
+		owner = PUE
+		add_core_of = PUE
+
+		buildings = {
+			infrastructure = 3
+			anti_air_building = 1
+			industrial_complex = 4
+			arms_factory = 1
+			4963 = {
+				naval_base = 10
+			}
+		}
+
+		victory_points = {
+			4963 30 #San Juan
+		}
+		victory_points = {
+			11846 12 #Ponce
+		}
+		victory_points = {
+			11840 12 #Caguas
+		}
+		victory_points = {
+			11801 10 #Arecibo
+		}
+		victory_points = {
+			11839 10 #Mayagüez
+		}
+
+
+	}
+ 
+ 
+ state_category=metropolis
+ manpower=3264000
+	buildings_max_level_factor=1.000
+}

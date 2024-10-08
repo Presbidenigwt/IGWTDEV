@@ -1,0 +1,1065 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_1"
+		texturefile = "gfx/leaders/KFC/Bandit_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_2"
+		texturefile = "gfx/leaders/KFC/Bandit_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_3"
+		texturefile = "gfx/leaders/KFC/Bandit_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_4"
+		texturefile = "gfx/leaders/KFC/Military_General_1.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/KFC/Advisor_Bandit_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/KFC/Advisor_Bandit_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/KFC/Advisor_Bandit_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SKY_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/KFC/Advisor_Military_General_1.dds"
+	}
+
+
+
+    spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_1"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_2"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_3"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_4"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_5"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_6"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_7"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_8"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_9"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_10"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_11"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_12"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_13"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_14"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_15"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_16"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_17"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_18"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_Female_1"
+		texturefile = "gfx/leaders/ARK/Portrait_Arkansas_Generic_land_Female_1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_7.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_8.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_9.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_10.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_11_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_11.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_12_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_12.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_13_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_13.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_14_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_14.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_15_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_15.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_16_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_16.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_17_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_17.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_18_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_18.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Arkansas_Generic_land_Female_1_small"
+		texturefile = "gfx/interface/ideas/ARK/idea_ARK_generic_land_female_1.png"
+	}
+
+
+    spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_1"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_2"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_3"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_4"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_5"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_6"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_7"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_8"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_9"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_10"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_11"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_12"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_13"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_14"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_15"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_16"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_17"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_18"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_19"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_19.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_20"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_20.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_21"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_21.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_22"
+		texturefile = "gfx/leaders/KKK/Portrait_Klan_Generic_land_22.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_8.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_9.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_10.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_11_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_11.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_12_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_12.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_13_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_13.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_14_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_15_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_16_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_17_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_18_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_19_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_19.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_20_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_20.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_21_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_21.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Klan_Generic_land_22_small"
+		texturefile = "gfx/interface/ideas/KKK/idea_KKK_generic_land_22.dds"
+	}
+
+
+    spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_1"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_2"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_3"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_4"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_5"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_6"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_7"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_8"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_9"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_10"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_11"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_12"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_13"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_14"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_14.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_15"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_15.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_16"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_16.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_17"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_17.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_18"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_18.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_19"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_19.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_20"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_20.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_21"
+		texturefile = "gfx/leaders/AFR/Portrait_Afrika_Generic_land_21.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_7.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_8.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_9.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_10.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_11_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_11.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_12_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_12.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_13_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_13.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_14_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_14.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_15_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_15.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_16_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_16.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_17_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_17.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_18_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_18.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_19_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_19.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_20_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_20.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Afrika_Generic_land_21_small"
+		texturefile = "gfx/interface/ideas/AFR/idea_AFR_generic_land_21.png"
+	}
+
+
+    spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_1"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_2"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_3"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_4"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_5"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_6"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_7"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_8"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_9"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_10"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_11"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_11.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_12"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_12.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_13"
+		texturefile = "gfx/leaders/CSB/Portrait_CSB_Generic_land_13.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_7.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_8.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_9.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_10.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_11_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_11.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_12_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_12.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_CSB_Generic_land_13_small"
+		texturefile = "gfx/interface/ideas/CSB/idea_CSB_generic_land_13.png"
+	}
+
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_1"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_2"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_3"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_4"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_5"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_6"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_6.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_7"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_8"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_9"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_9.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_10"
+		texturefile = "gfx/leaders/CSA/Portrait_Dixie_Generic_land_10.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_7.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_8.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_9_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_9.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Dixie_Generic_land_10_small"
+		texturefile = "gfx/interface/ideas/CSA/idea_CSA_generic_land_10.png"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_1"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_2"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_3"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_4"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_5"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_5.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_6"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_7"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_7.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_8"
+		texturefile = "gfx/leaders/ZIO/Portrait_Zion_Generic_land_8.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_2_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_3_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_4_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_5_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_6_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_7_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_7.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Zion_Generic_land_8_small"
+		texturefile = "gfx/interface/ideas/ZIO/idea_Zio_generic_land_8.png"
+	}
+	
+	#ZIO FC EASTER EGG
+	spriteType = {
+		name = "GFX_Portrait_ZIO_officer_1"
+		texturefile = "gfx/leaders/ZIO/Portrait_ZIO_officer_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ZIO_das_rite"
+		texturefile = "gfx/interface/ideas/ZIO/GFX_idea_ZIO_das_rite.png"
+	}
+	
+	#########NAVY
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_1"
+		texturefile = "gfx/leaders/Generic/Generic_Navy_Admiral_Male_1.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_1_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Navy_Admiral_Male_1.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_2"
+		texturefile = "gfx/leaders/Generic/Generic_Navy_Admiral_Male_2.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_2_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Navy_Admiral_Male_2.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_3"
+		texturefile = "gfx/leaders/Generic/Generic_Navy_Admiral_Male_3.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_3_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Navy_Admiral_Male_1.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_4"
+		texturefile = "gfx/leaders/Generic/Generic_Navy_Admiral_Male_4.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Male_4_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Navy_Admiral_Male_4.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Female_1"
+		texturefile = "gfx/leaders/Generic/Generic_Navy_Admiral_Female_1.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Navy_Admiral_Female_1_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Navy_Admiral_Female_1.tga"
+	}
+	
+	##########ARMY
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_1"
+		texturefile = "gfx/leaders/Generic/Portrait_Generic_Military_General_1.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_1_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_1.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_2"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_2.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_2_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_2.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_3"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_3.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_3_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_3.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_4"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_4.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_4_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_4.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_5"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_5.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_5_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_5.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_6"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_6.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_6_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_6.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_7"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_7.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_7_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_7.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_8"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_8.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_8_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_8.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_9"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_9.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_9_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_9.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_10"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_10.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_10_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_10.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_11"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_11.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_11_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_11.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_12"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_12.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_12_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_12.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_13"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_13.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_13_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_13.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_14"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_14.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_14_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_14.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_1_female" 
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_1_Female.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_1_female_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_1_Female.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_2_female"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_2_Female.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_2_female_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_2_Female.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_3_female"
+		texturefile = "gfx/leaders/Generic/Generic_Military_General_3_Female.tga"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Generic_Military_General_3_female_small"
+		texturefile = "gfx/interface/ideas/Generic/idea_Generic_Military_General_3_Female.tga"
+	}
+	
+	
+	
+	
+	
+###SPIES
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Spy_Guy"
+		texturefile = "gfx/leaders/Generic/Generic_Spy_Guy.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Spy_Guy_2"
+		texturefile = "gfx/leaders/Generic/Generic_Spy_Guy_2.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Spy_Girl"
+		texturefile = "gfx/leaders/Generic/Generic_Spy_Girl.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Generic_Spy_Girl_2"
+		texturefile = "gfx/leaders/Generic/Generic_Spy_Girl_2.tga"
+	}
+	
+	
+}

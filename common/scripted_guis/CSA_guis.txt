@@ -1,0 +1,145 @@
+scripted_gui = {
+
+	south_pol_button = {
+		context_type = player_context
+		window_name = "south_pol_button"
+		parent_window_name = "countrypoliticsview"
+		visible = {
+			tag = CSA
+		}
+		effects = {
+			open_click = {
+				set_country_flag = strike_view
+			}
+		}
+	}
+
+	south_strikes = {
+		context_type = player_context
+		window_name = "south_strikes"	
+		visible = {	
+			has_country_flag = strike_view
+		}
+		effects = {
+			closed_click = {
+				clr_country_flag = strike_view
+			}
+			question_mark_click = {
+				country_event = {
+    					id = south.1
+					days = 0
+				}
+			}
+			power_to_west_click = {
+				if = { limit = {has_political_power > 100}
+					modify_country_flag = {flag = kkk_strike value = 1}
+					modify_country_flag = {flag = black_strike value = 1}
+					add_political_power = -100
+					add_to_variable = {
+						var = sexy_x
+						value = 25
+					}
+					clamp_variable = {
+						var = sexy_x
+						min = -245
+						max = 5
+					}
+				}
+			} 
+			balane_black_click = {
+				if = { limit = {has_political_power > 75}
+					modify_country_flag = {flag = kkk_strike value = 1}
+					modify_country_flag = {flag = black_strike value = -1}
+					add_political_power = -75
+				}
+			} 
+			balane_kkk_click = {
+				if = { limit = {has_political_power > 75}
+					modify_country_flag = {flag = kkk_strike value = -1}
+					modify_country_flag = {flag = black_strike value = 1}
+					add_political_power = -75
+				}
+			} 
+ #modify_state_flag = {flag = kuwait_oil_developedvalue = 1}
+		}
+		triggers = {
+			power_to_west_visible = {
+				check_variable = {
+    					sexy_x < 5
+				}
+			}
+			strike_1_visible = {
+				has_country_flag = {
+    					flag = black_strike
+    					value > 0
+				}
+			}
+			strike_2_visible = {
+				has_country_flag = {
+    					flag = black_strike
+    					value > 1
+				}
+			}
+			strike_3_visible = {
+				has_country_flag = {
+    					flag = black_strike
+    					value > 2
+				}
+			}
+			strike_4_visible = {
+				has_country_flag = {
+    					flag = black_strike
+    					value > 3
+				}
+			}
+			strike_5_visible = {
+				has_country_flag = {
+    					flag = kkk_strike
+    					value > 0
+				}
+			}
+			strike_6_visible = {
+				has_country_flag = {
+    					flag = kkk_strike
+    					value > 1
+				}
+			}
+			strike_7_visible = {
+				has_country_flag = {
+    					flag = kkk_strike
+    					value > 2
+				}
+			}
+			strike_8_visible = {
+				has_country_flag = {
+    					flag = kkk_strike
+    					value > 3
+				}
+			}
+			 balane_kkk_visible = {
+				has_country_flag = {
+    					flag = kkk_strike
+    					value < 4
+				}
+			}
+
+			 balane_black_visible = {
+				has_country_flag = {
+    					flag = black_strike
+    					value < 4
+				}
+			}
+		}
+	}
+	south_bar = {
+		context_type = player_context
+		window_name = "south_bar"
+		parent_window_name = "south_strikes"
+		properties = {
+			bar_actual = {
+				x = sexy_x
+			}
+		}		
+	}
+
+}
