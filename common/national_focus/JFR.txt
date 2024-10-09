@@ -1,0 +1,23 @@
+focus_tree = {
+	id = carto_start
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JFR
+		}
+	}
+    default = no
+    focus = {
+		id = i_was_born_in_america
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 10
+		y = 0
+		completion_reward = {
+	
+		}
+	}
+	
+	}
+	
