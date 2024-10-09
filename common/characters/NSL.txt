@@ -1,0 +1,17 @@
+characters={
+
+	JFR_joseph_tommasi = {
+		name = JFR_joseph_tommasi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JFR/joseph_tommasi.dds
+			}
+		}
+		country_leader = {
+			traits = { }
+			ideology = fascism
+			expire = "2060.1.1.1"
+			id = -1
+		}
+	}
+    }

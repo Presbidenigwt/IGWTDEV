@@ -1,0 +1,17 @@
+characters={
+
+	SLA_donald_defreeze = {
+		name = SLA_donald_defreeze
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JFR/donald_defreeze.dds
+			}
+		}
+		country_leader = {
+			traits = { }
+			ideology = maoism
+			expire = "2060.1.1.1"
+			id = -1
+		}
+	}
+    }

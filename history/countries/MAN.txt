@@ -17,6 +17,6 @@ set_popularities = {
 }
 
 ### Country Leaders ###
-recruit_character = NSL_joseph_tommasi
+recruit_character = MAN_charles_manson
 
 ### Generals ###
