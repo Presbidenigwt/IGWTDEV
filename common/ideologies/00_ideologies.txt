@@ -60,7 +60,6 @@ ideologies = {
 		}
 		ai_fascist = yes # uses the fascist AI behaviour = yes 
 	}
-	
 	liberal = {
 
 
@@ -117,8 +116,6 @@ ideologies = {
 		}
 		ai_fascist = yes # uses the fascist AI behaviour = yes 
 	}
-
-
 	conservative = {
 		
 		types = {		
@@ -170,14 +167,14 @@ ideologies = {
 		
 		ai_fascist = yes # uses the fascist AI behaviour = yes 
 	}
-
-
 	fascist = {	
 		types = {	
 			american_nazism = {
 			}	
 			fascism = {
-			}		
+			}	
+            jeffersonian_fascism = {
+			}					
 		}
 		
 		dynamic_faction_names = {
@@ -455,4 +452,4 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour = yes 
 	}
 
-             }
+    }
