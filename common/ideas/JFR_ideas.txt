@@ -1,0 +1,15 @@
+ideas = {
+	country = {
+		JFR_2nd_american_revolution = {
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				conscription = -0.045
+				conscription_factor = -0.15
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				occupation_cost = 0.1
+				resistance_growth_on_our_occupied_states = 0.15
+			}
+		}
+	}
+}
