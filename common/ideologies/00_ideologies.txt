@@ -356,10 +356,6 @@ ideologies = {
 			}
 			nazbol = {
 			}
-			juche = {
-			}
-			Authoritarian_Liberalism = {
-			}
 			christian_communism = {
 			}
 		}
@@ -411,7 +407,7 @@ ideologies = {
 	
 		types = {
 			
-			anarcho_capitalism = {
+			despotism = {
 			}		
 		}
 		
