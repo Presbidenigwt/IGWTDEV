@@ -18,6 +18,7 @@ set_popularities = {
 }
 add_ideas = {
 		JFR_2nd_american_revolution
+		JFR_american_triumvirate
 	}
 	
 ### Country Leaders ###
