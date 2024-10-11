@@ -24,6 +24,9 @@ focus_tree = {
 		cost = 5.00
 		x = 7
 		y = 1
+		prerequisite = {
+			focus = i_was_born_in_america
+		}
 		completion_reward = {
 	
 		}
@@ -34,6 +37,9 @@ focus_tree = {
 		cost = 5.00
 		x = 13
 		y = 1
+		prerequisite = {
+			focus = i_was_born_in_america
+		}
 		completion_reward = {
 	
 		}
@@ -44,6 +50,9 @@ focus_tree = {
 		cost = 5.00
 		x = 12
 		y = 2
+		prerequisite = {
+			focus = the_continental_army
+		}
 		completion_reward = {
 	
 		}
@@ -55,6 +64,9 @@ focus_tree = {
 		cost = 5.00
 		x = 12
 		y = 3
+		prerequisite = {
+			focus = regin_in_metziger
+		}
 		completion_reward = {
 	
 		}
@@ -65,6 +77,9 @@ focus_tree = {
 		cost = 5.00
 		x = 12
 		y = 4
+		prerequisite = {
+			focus = an_army_for_the_state
+		}
 		completion_reward = {
 	
 		}
@@ -75,6 +90,9 @@ focus_tree = {
 		cost = 5.00
 		x = 14
 		y = 2
+		prerequisite = {
+			focus = the_continental_army
+		}
 		completion_reward = {
 	
 		}
@@ -86,6 +104,9 @@ focus_tree = {
 		cost = 5.00
 		x = 14
 		y = 3
+		prerequisite = {
+			focus = keep_him_fighting
+		}
 		completion_reward = {
 	
 		}
@@ -96,6 +117,9 @@ focus_tree = {
 		cost = 5.00
 		x = 14
 		y = 4
+		prerequisite = {
+			focus = an_army_with_a_state
+		}
 		completion_reward = {
 	
 		}
@@ -106,6 +130,9 @@ focus_tree = {
 		cost = 5.00
 		x = 6
 		y = 2
+		prerequisite = {
+			focus = the_american_state
+		}
 		completion_reward = {
 	
 		}
@@ -117,16 +144,22 @@ focus_tree = {
 		cost = 5.00
 		x = 6
 		y = 3
+		prerequisite = {
+			focus = let_the_madman_preech
+		}
 		completion_reward = {
 	
 		}
 	}
-	ocus = {
+	focus = {
 		id = the_dark_horse_of_america
 		icon = focus_USA_flag_torch
 		cost = 5.00
 		x = 6
 		y = 4
+		prerequisite = {
+			focus = the_ear_of_the_blueshirts
+		}
 		completion_reward = {
 	
 		}
@@ -137,6 +170,9 @@ focus_tree = {
 		cost = 5.00
 		x = 8
 		y = 2
+		prerequisite = {
+			focus = the_american_state
+		}
 		completion_reward = {
 	
 		}
@@ -149,6 +185,9 @@ focus_tree = {
 		cost = 5.00
 		x = 8
 		y = 3
+		prerequisite = {
+			focus = only_carto
+		}
 		completion_reward = {
 	
 		}
@@ -160,6 +199,9 @@ focus_tree = {
 		cost = 5.00
 		x = 8
 		y = 4
+		prerequisite = {
+			focus = america_first
+		}
 		completion_reward = {
 	
 		}
@@ -171,6 +213,7 @@ focus_tree = {
 		cost = 5.00
 		x = 7
 		y = 5
+		prerequisite = { focus = the_voice_of_america focus = the_dark_horse_of_america }
 		completion_reward = {
 	
 		}
