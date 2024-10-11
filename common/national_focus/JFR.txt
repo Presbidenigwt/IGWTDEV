@@ -225,6 +225,7 @@ focus_tree = {
 		cost = 5.00
 		x = 13
 		y = 5
+		prerequisite = { focus = forged_in_blood focus = army_strong_once_more }
 		completion_reward = {
 	
 		}
@@ -236,6 +237,8 @@ focus_tree = {
 		cost = 5.00
 		x = 10
 		y = 7
+		prerequisite = { focus = army_of_justice }
+        prerequisite = { focus = only_the_start }
 		completion_reward = {
 	
 		}
