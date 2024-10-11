@@ -1,10 +1,10 @@
 SpriteTypes = {
 	SpriteType = {
 		name = "focus_USA_flag_torch"
-		texturefile = "gfx/interface/goals/AST/focus_USA_flag_torch.dds"
+		texturefile = "gfx/interface/goals/JFR/focus_USA_flag_torch.dds"
 	}
 	SpriteType = {
 		name = "focus_USA_flag_torch"
-		texturefile = "gfx/interface/goals/AST/focus_USA_flag_torch.dds"
+		texturefile = "gfx/interface/goals/JFR/focus_USA_flag_torch.dds"
 	}
 }
