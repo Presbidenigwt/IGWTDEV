@@ -7,7 +7,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = fascism
+            ideology = jeffersonian_fascism
             traits = { }
             desc = JFR_willis_carto_desc
         }
