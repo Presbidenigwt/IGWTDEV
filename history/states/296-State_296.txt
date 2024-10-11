@@ -9,8 +9,8 @@ state={
 			arms_factory = 1
 
 		}
-		owner = PRA
-		add_core_of = PRA
+		owner = STG
+		add_core_of = STG
 		victory_points = {
 			1051 1 
 		}
