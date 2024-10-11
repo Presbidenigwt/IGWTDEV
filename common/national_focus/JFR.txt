@@ -18,6 +18,186 @@ focus_tree = {
 	
 		}
 	}
+	 focus = {
+		id = the_american_state
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 7
+		y = 1
+		completion_reward = {
+	
+		}
+	}
+	 focus = {
+		id = the_continental_army
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 13
+		y = 1
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = regin_in_metziger
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 12
+		y = 2
+		completion_reward = {
+	
+		}
+		mutually_exclusive = { focus = keep_him_fighting }
+	}
+	focus = {
+		id = an_army_for_the_state
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 12
+		y = 3
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = army_strong_once_more
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 12
+		y = 4
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = keep_him_fighting
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 14
+		y = 2
+		completion_reward = {
+	
+		}
+		mutually_exclusive = { focus = regin_in_metziger }
+	}
+	focus = {
+		id = an_army_with_a_state
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 14
+		y = 3
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = forged_in_blood
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 14
+		y = 4
+		completion_reward = {
+	
+		}
+	}
+	 focus = {
+		id = let_the_madman_preech
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 6
+		y = 2
+		completion_reward = {
+	
+		}
+		mutually_exclusive = { focus = only_carto }
+	}
+	focus = {
+		id = the_ear_of_the_blueshirts
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 6
+		y = 3
+		completion_reward = {
+	
+		}
+	}
+	ocus = {
+		id = the_dark_horse_of_america
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 6
+		y = 4
+		completion_reward = {
+	
+		}
+	}
+	focus = {
+		id = only_carto
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 8
+		y = 2
+		completion_reward = {
+	
+		}
+		mutually_exclusive = { focus = let_the_madman_preech }
+		
+	}
+	focus = {
+		id = america_first
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 8
+		y = 3
+		completion_reward = {
+	
+		}
+		
+	}
+	focus = {
+		id = the_voice_of_america
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 8
+		y = 4
+		completion_reward = {
+	
+		}
+		
+	}
+	focus = {
+		id = only_the_start
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 7
+		y = 5
+		completion_reward = {
+	
+		}
+		
+	}
+	focus = {
+		id = army_of_justice
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 13
+		y = 5
+		completion_reward = {
+	
+		}
+		
+	}
+	focus = {
+		id = begin_the_2nd_revolution
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 10
+		y = 7
+		completion_reward = {
+	
+		}
+		
+	}
 	
 	}
 	
