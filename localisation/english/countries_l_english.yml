@@ -1,29 +1,10 @@
 ﻿l_english:
 
- ### UNITED STATES OF AMERICA TAGS ###
- # Western United States Tags (Alaska, Arizona, California, Colorado, Hawaii, Idaho, Montana, Nevada, New Mexico, Oregon, Utah, Washington, Wyoming) #
- AFO:0 "Western Army Commad"
- AFO_DEF:0 "Western Army Commad Of The U.S. Armed Forces"
- AFO_ADJ:0 "USAF"
- 
- AFF:0 "America Front"
- AFF_DEF:0 "The American National State"
- AFF_ADJ:0 "American Retards"
-
  FIR_ADJ:0 "Nevadan"
  
  HAM:0 "America"
  HAM_DEF:0 "America"
  HAM_ADJ:0 "American"
- 
-
- 
- # Montana Tags #
-
- 
- ###########################
- 
-
  
  PRA:0 "People's Republic of America"
  PRA_ADJ:0 "Socialist Americans"
@@ -34,9 +15,6 @@
  PRA_communism:0 "American Liberation Army"
  PRA_communismt_ADJ:0 "ALA"
  PRA_communism_DEF:0 "the American People's Army of Liberation and Revolution"
-
-
- # PRA Tags #
 
 
  JFR:0 "Columbia"

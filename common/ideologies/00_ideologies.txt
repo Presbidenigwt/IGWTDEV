@@ -520,8 +520,11 @@ ideologies = {
 	
 		types = {
 			
-			natsoc {
-			}		
+			nazism {
+			}
+			accelerationist_nazism {
+			}
+		
 		}
 		
 		dynamic_faction_names = {
