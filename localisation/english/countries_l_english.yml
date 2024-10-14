@@ -1,10 +1,5 @@
 ﻿l_english:
 
- FIR_ADJ:0 "Nevadan"
- 
- HAM:0 "America"
- HAM_DEF:0 "America"
- HAM_ADJ:0 "American"
  
  PRA:0 "People's Republic of America"
  PRA_ADJ:0 "Socialist Americans"
@@ -40,3 +35,11 @@
  NSL:0 "National Socialist Liberation Front"
  NSL_ADJ:0 "American Nazis"
  NSL_DEF:0 "The National Socialist Liberation Front"
+ 
+ STF:0 "Sturgis Group"
+ STG_ADJ:0 "Sturgis Group"
+ STG_DEF:0 "The Sturgis Group"
+ 
+ STF:0 "Symbionese Liberation Army"
+ STG_ADJ:0 "Symbionese Liberation Army"
+ STG_DEF:0 "The Symbionese Liberation Army"

@@ -11,6 +11,8 @@ NSL = "countries/league.txt"
 
 SLA = "countries/symbanise.txt"
 
+STG= "countries/mercs.txt"
+
 
 
 

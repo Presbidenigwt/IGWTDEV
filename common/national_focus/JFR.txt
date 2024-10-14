@@ -30,6 +30,9 @@ focus_tree = {
 			focus = i_was_born_in_america
 		}
 		completion_reward = {
+		country_event = {
+				id = jfr.2
+			}
 	
 		}
 	}
@@ -43,7 +46,9 @@ focus_tree = {
 			focus = i_was_born_in_america
 		}
 		completion_reward = {
-	
+		country_event = {
+				id = jfr.3
+			}
 		}
 	}
 	focus = {
