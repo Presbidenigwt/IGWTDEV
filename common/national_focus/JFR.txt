@@ -33,6 +33,8 @@ focus_tree = {
 		country_event = {
 				id = jfr.2
 			}
+			add_stability = 0.15
+			add_political_power = 50
 	
 		}
 	}
@@ -61,6 +63,9 @@ focus_tree = {
 			focus = the_continental_army
 		}
 		completion_reward = {
+		country_event = {
+				id = jfr.4
+			}
 	
 		}
 		mutually_exclusive = { focus = keep_him_fighting }
@@ -247,6 +252,10 @@ focus_tree = {
 		prerequisite = { focus = army_of_justice }
         prerequisite = { focus = only_the_start }
 		completion_reward = {
+		country_event = {
+				id = jfr.8
+			}
+		
 	
 		}
 		

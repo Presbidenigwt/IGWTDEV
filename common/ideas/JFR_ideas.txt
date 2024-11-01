@@ -15,5 +15,15 @@ ideas = {
 				natsoc_drift = 0.01
 			}
 		}
-	}
-}
+	    JFR_new_contenental_army = {
+			picture = FRA_army_of_aggression_focus
+			modifier = {
+				minimum_training_level = -0.15
+				offence = -0.5
+				defence = -0.5
+				army_morale_factor = -0.8
+                recon_factor = 0.2	
+			}
+    }
+    }
+  }

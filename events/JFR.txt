@@ -44,3 +44,15 @@ country_event = {
 		complete_national_focus = regin_in_metziger
 	}
 }
+country_event = {
+	id = jfr.8
+	title = jfr.8.t
+	desc = jfr.8.d
+	#picture =
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = jfr.8.a
+		load_focus_tree = JFR2
+	}
+}
