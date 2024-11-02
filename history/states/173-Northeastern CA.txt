@@ -1,0 +1,24 @@
+state={
+	id=173
+	name="STATE_173"
+	history={
+		owner = JFR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		add_core_of = JFR
+		victory_points = {
+			697 1
+		}
+	}
+	provinces={
+		697 728 781 863 906 932 1272 1314 2019 2043 2124 2160 2260 2266 2434 
+	}
+	manpower=59992
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=0.0 
+}

@@ -20,7 +20,7 @@
  MAN_ADJ:0 "Family"
  MAN_DEF:0 "The Manson Family"
  
- NCR:0 "California"
+ NCR:0 "California Republic"
  NCR_ADJ:0 "Californian"
  NCR_DEF:0 "The New California Republic"
  
@@ -36,10 +36,18 @@
  NSL_ADJ:0 "American Nazis"
  NSL_DEF:0 "The National Socialist Liberation Front"
  
- STF:0 "Sturgis Group"
+ STG:0 "Sturgis Group"
  STG_ADJ:0 "Sturgis Group"
  STG_DEF:0 "The Sturgis Group"
  
- STF:0 "Symbionese Liberation Army"
- STG_ADJ:0 "Symbionese Liberation Army"
- STG_DEF:0 "The Symbionese Liberation Army"
+ SLA:0 "Symbionese Liberation Army"
+ SLA_ADJ:0 "Symbionese Liberation Army"
+ SLA_DEF:0 "The Symbionese Liberation Army"
+ 
+ HAG:0 "Hell's Angels"
+ HAG_ADJ:0 "Hell's Angels"
+ HAG_DEF:0 "The Hell's Angels"
+ 
+ SLA:0 "Symbionese Liberation Army"
+ SLA_ADJ:0 "Symbionese Liberation Army"
+ SLA_DEF:0 "The Symbionese Liberation Army"

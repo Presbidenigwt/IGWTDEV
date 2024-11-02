@@ -13,13 +13,19 @@ SLA = "countries/symbanise.txt"
 
 STG= "countries/mercs.txt"
 
+HAG = "countries/HAG.txt"
 
+LOS = "countries/LA.txt"
 
+REG = "countries/Ronald.txt"
 
+SDF = "countries/SDF.txt"
 
+NVR = "countries/NVR.txt"
 
+SAG = "countries/SAG.txt"
 
-
+SCI = "countries/SCI.txt"
 
 
 
