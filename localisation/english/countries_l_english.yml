@@ -1,16 +1,9 @@
 ﻿l_english:
 
  
- PRA:0 "People's Republic of America"
+ PRA:0 "American Workers Federation"
  PRA_ADJ:0 "Socialist Americans"
  PRA_DEF:0 "Red America"
- PRA_moderate_socialist:0 "People's Republic of America"
- PRA_moderate_socialist_ADJ:0 "Socialist Americans"
- PRA_moderate_socialist_DEF:0 "Red America"
- PRA_communism:0 "American Liberation Army"
- PRA_communismt_ADJ:0 "ALA"
- PRA_communism_DEF:0 "the American People's Army of Liberation and Revolution"
-
 
  JFR:0 "Columbia"
  JFR_ADJ:0 "Columbian"
@@ -51,3 +44,35 @@
  SLA:0 "Symbionese Liberation Army"
  SLA_ADJ:0 "Symbionese Liberation Army"
  SLA_DEF:0 "The Symbionese Liberation Army"
+ 
+ REG:0 "United American Republic"
+ REG_ADJ:0 "American"
+ REG_DEF:0 "The United American Republic"
+ 
+ NVR:0 "Nevada Rangers"
+ NVR_ADJ:0 "Nevada Rangers"
+ NVR_DEF:0 "The Nevada Rangers"
+ 
+ SAG:0 "Southern Army Group"
+ SAG_ADJ:0 "Southern Army Group"
+ SAG_DEF:0 "The Southern Army Group California"
+ 
+ LOS:0 "Los Angeles"
+ LOS_ADJ:0 "Los Angeles"
+ LOS_DEF:0 "Los Angeles"
+ 
+ SDF:0 "San Diego Free Zone"
+ SDF_ADJ:0 "San Diego Free Zone"
+ SDF_DEF:0 "The San Diego Free Zone"
+ 
+ UFW:0 "United Farm Workers"
+ UFW_ADJ:0 "United Farm Worker"
+ UFW_DEF:0 "The United Farm Workers"
+ 
+ FSD:0 "Dragna Free State"
+ FSD_ADJ:0 "United Farm Worker"
+ FSD_DEF:0 "The United Farm Workers"
+ 
+ JON:0 "Jonestown"
+ JON_ADJ:0 "Jonestownr"
+ JON_DEF:0 "The Socialist Spirtual Realm Of Jonestown"

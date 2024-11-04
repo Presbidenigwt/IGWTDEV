@@ -1,0 +1,15 @@
+characters = {
+    MAN_charles_manson = {
+        name = MAN_charles_manson
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/MAN/charles_manson.dds"
+            }
+        }
+        country_leader = {
+            ideology = accelerationist_nazism
+            traits = { }
+            desc = MAN_charles_manson_desc
+        }
+    }
+}

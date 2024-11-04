@@ -522,6 +522,7 @@ ideologies = {
 			
 			nazism {
 			}
+			
 			accelerationist_nazism {
 			}
 		

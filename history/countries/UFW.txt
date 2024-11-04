@@ -1,4 +1,4 @@
-capital = 9132
+capital = 4
 
 # Starting tech
 set_technology = {
@@ -7,16 +7,18 @@ set_technology = {
 
 
 set_politics = {
-	ruling_party = natsoc
+	ruling_party = moderate_socialist
 	last_election = "2019.4.2"
 	election_frequency = 60
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	natsoc = 100
+	moderate_socialist = 60
+	authdem = 10
+	communism = 20
 }
 
 ### Country Leaders ###
-recruit_character = MAN_charles_manson
+recruit_character =  dolores_huerta
 
 ### Generals ###

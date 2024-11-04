@@ -8,7 +8,7 @@ ideas = {
 			}
 		}
 		JFR_american_triumvirate = {
-			picture = FRA_army_of_aggression_focus
+			picture = american_triumvirate
 			modifier = {
 				stability_factor = -0.3
 				fascist_drift = 0.02
@@ -16,13 +16,13 @@ ideas = {
 			}
 		}
 	    JFR_new_contenental_army = {
-			picture = FRA_army_of_aggression_focus
+			picture = 2ar_3
 			modifier = {
 				minimum_training_level = -0.15
-				offence = -0.5
-				defence = -0.5
+				offence = -0.05
+				defence = -0.025
 				army_morale_factor = -0.8
-                recon_factor = 0.2	
+                recon_factor = 0.02	
 			}
     }
     }

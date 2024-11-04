@@ -4,20 +4,14 @@ state={
 	name="STATE_400"
 
 	history={
-		owner = SCA
-		1936.1.2 = {
-			owner = USA
-		}
+		owner = FSD
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 1
 
 		}
-		add_core_of = SCA
-		1936.1.2 = {
-			owner = USA
-		}
+		add_core_of = FSD
 	}
 
 	provinces={

@@ -1,7 +1,12 @@
 spriteTypes = {
 	spriteType = {
-        name = "GFX_idea_resource_import_cost"
-        texturefile = "gfx/interface/ideas/resources/resource_import_cost.dds"
+        name = "GFX_idea_american_triumvirate"
+        texturefile = "gfx/interface/ideas/JFR/american_triumvirate.png"
     }
+	spriteType = {
+		name = "GFX_idea_2ar_3"
+        texturefile = "gfx/interface/ideas/JFR/2ar_3.png"
+	}
 }
+
 
