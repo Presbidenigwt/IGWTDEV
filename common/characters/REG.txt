@@ -1,0 +1,15 @@
+characters = {
+    REG_ronald_reagan = {
+        name = REG_ronald_reagan
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/REG/ronald_reagan.png"
+            }
+        }
+        country_leader = {
+            ideology = reaganism
+            traits = { }
+            desc = REG_ronald_reagan_desc
+        }
+    }
+}

@@ -1,0 +1,24 @@
+capital = 9132
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_stability = 0.5
+set_war_support = 0.6
+set_politics = {
+	ruling_party = conservative
+	last_election = "2019.4.2"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	conservative = 100
+}
+add_ideas = {
+
+	}
+	
+### Country Leaders ###
+recruit_character = REG_ronald_reagan
