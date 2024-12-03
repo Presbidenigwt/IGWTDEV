@@ -1,10 +1,5 @@
 capital = 304
 
-oob = "PRA_2021"
-
-
-create_faction = united_workers_of_america
-
 #Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -116,7 +111,7 @@ set_popularities = {
 set_research_slots = 4
 
 ### Country Leaders ###
-
+recruit_character = PRA_huey_newton
 
 ### Political Advisors ###
 
@@ -125,7 +120,3 @@ set_research_slots = 4
 
 
 ### Admirals ###
-recruit_character = PRA_jody_a_breckenridge
-recruit_character = PRA_sun_jianguo
-
-i

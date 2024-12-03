@@ -7,7 +7,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = accelerationist_nazism
+            ideology = esoteric_nazism
             traits = { }
             desc = MAN_charles_manson_desc
         }

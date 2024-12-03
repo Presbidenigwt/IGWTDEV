@@ -1,0 +1,23 @@
+focus_tree = {
+	id = NCR_f
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NCR
+		}
+	}
+    default = no
+    focus = {
+		id = calm_the_hell_down
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 10
+		y = 0
+		completion_reward = {
+		country_event = {
+			}
+		}
+	}
+	}
+	

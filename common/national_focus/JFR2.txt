@@ -20,8 +20,8 @@ focus_tree = {
 		id = begin_the_gears_of_industry
 		icon = focus_USA_flag_torch
 		cost = 5.00
-		x = 9
-		y = 2
+		x = 6
+		y = 1
 		prerequisite = {
 			focus = rally_the_patriots
 		}
@@ -32,7 +32,7 @@ focus_tree = {
 		id = roll_in_coprate_state
 		icon = focus_USA_flag_torch
 		cost = 5.00
-		x = 8
+		x = 4
 		y = 2
 		prerequisite = {
 			focus = begin_the_gears_of_industry
@@ -44,11 +44,72 @@ focus_tree = {
 		id = every_worker_a_proud_worker
 		icon = focus_USA_flag_torch
 		cost = 5.00
-		x = 8
+		x = 4
 		y = 3
+		prerequisite = {
+			focus = roll_in_coprate_state
+		}
+		completion_reward = {
+		}
+	}
+		 focus = {
+		id = giving_whats_due
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 8
+		y = 2
 		prerequisite = {
 			focus = begin_the_gears_of_industry
 		}
+		completion_reward = {
+		}
+	}
+			focus = {
+		id = create_health_corp
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 8
+		y = 4
+		prerequisite = {
+			focus = patriotic_housing_plan
+		}
+		completion_reward = {
+		}
+	}
+			focus = {
+		id = keeping_americans_healthy_and_fed
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = every_worker_a_proud_worker
+		}
+		completion_reward = {
+		}
+	}
+			focus = {
+		id = patriotic_housing_plan
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 8
+		y = 3
+		prerequisite = {
+			focus = giving_whats_due
+		}
+		completion_reward = {
+		}
+	}
+				focus = {
+		id = form_the_american_labour_front
+		icon = focus_USA_flag_torch
+		cost = 5.00
+		x = 4
+		y = 4
+		prerequisite = {
+			focus = keeping_americans_healthy_and_fed
+		}
+		mutually_exclusive = { focus = create_health_corp }
 		completion_reward = {
 		}
 	}
@@ -56,10 +117,10 @@ focus_tree = {
 		id = securing_the_state_apparatus
 		icon = focus_USA_flag_torch
 		cost = 5.00
-		x = 8
+		x = 14
 		y = 1
 		prerequisite = {
-			focus = begin_the_gears_of_industry
+			focus = rally_the_patriots
 		}
 		completion_reward = {
 		}

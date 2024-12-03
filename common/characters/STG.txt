@@ -1,17 +1,15 @@
-characters={
-
-	STG_frank_sturgis = {
-		name = STG_frank_sturgis
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/STG/frank_sturgis.dds
-			}
-		}
-		country_leader = {
-			traits = { }
-			ideology = junta
-			expire = "2060.1.1.1"
-			id = -1
-		}
-	}
+characters = {
+    STG_frank_sturgis = {
+        name = STG_frank_sturgis
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/STG/frank_stugrgis.dds"
+            }
+        }
+        country_leader = {
+            ideology = merc_state
+            traits = { }
+            desc = STG_frank_sturgis_desc
+        }
     }
+}

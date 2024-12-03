@@ -4,7 +4,7 @@ SpriteTypes = {
 		texturefile = "gfx/interface/goals/JFR/focus_USA_flag_torch.dds"
 	}
 	SpriteType = {
-		name = "focus_USA_flag_torch"
-		texturefile = "gfx/interface/goals/JFR/focus_USA_flag_torch.dds"
+		name = "goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
 	}
 }

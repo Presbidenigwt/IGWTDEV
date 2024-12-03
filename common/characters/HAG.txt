@@ -1,0 +1,16 @@
+characters={
+
+	HAG_sonny_barger = {
+		name = HAG_sonny_barger
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAG/sonny_barger.dds
+			}
+		}
+		country_leader = {
+			traits = { }
+			ideology = criminal_gang
+			expire = "2060.1.1.1"
+		}
+	}
+    }

@@ -9,9 +9,8 @@ characters={
 		}
 		country_leader = {
 			traits = { }
-			ideology = maoism
+			ideology = stratocratic_maoism
 			expire = "2060.1.1.1"
-			id = -1
 		}
 	}
     }

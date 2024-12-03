@@ -1,0 +1,15 @@
+characters = {
+    NCR_richard_nixon = {
+        name = NCR_richard_nixon
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NCR/richard_nixon.png"
+            }
+        }
+        country_leader = {
+            ideology = nixonism
+            traits = { }
+            desc = NCR_richard_nixon_desc
+        }
+    }
+}

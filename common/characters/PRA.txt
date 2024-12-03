@@ -1,4 +1,15 @@
-characters={
-
-	
+characters = {
+    PRA_huey_newton = {
+        name = PRA_huey_newton
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/PRA/huey_newton.png"
+            }
+        }
+        country_leader = {
+            ideology = revolutionary_front
+            traits = { }
+            desc = PRA_huey_newton_desc
+        }
+    }
 }

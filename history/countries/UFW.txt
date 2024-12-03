@@ -19,6 +19,6 @@ set_popularities = {
 }
 
 ### Country Leaders ###
-recruit_character =  dolores_huerta
+recruit_character =  UFW_dolores_huerta
 
 ### Generals ###
