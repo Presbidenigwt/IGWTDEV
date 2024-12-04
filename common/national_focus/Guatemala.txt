@@ -15,43 +15,30 @@ focus_tree = {
 
 	focus = {
 		id = GUA_dont_depose_me
-		icon = GFX_goal_CZE_war_of_words
+		icon = 
 		x = 3
 		y = 0
 		cost = 6
-
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
 
 		ai_will_do = {
 			factor = 100
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_dont_depose_me"
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
+			log = 
+			add_popularity =
 		}
 	}
 
 	focus = {
 		id = GUA_ask_for_favours
-		icon = GFX_goal_CSA_capital_investments
+		icon = 
 		x = -2
 		y = 1
 		cost = 7
 
 		relative_position_id = GUA_dont_depose_me
 
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
 
 		prerequisite = { focus = GUA_dont_depose_me }
 
@@ -59,24 +46,7 @@ focus_tree = {
 			factor = 100
 		}
 
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_ask_for_favours"
-			custom_effect_tooltip = GUA_UFC_3up
-			313 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			hidden_effect = {
-				add_to_variable = {
-					var = UFC_power
-					value = 3
-				}
-				CA_SET_UFC_VAR = yes
-			}
+		completion_reward = {}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -90,13 +60,6 @@ focus_tree = {
 
 		relative_position_id = GUA_dont_depose_me
 
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
-
 		prerequisite = { focus = GUA_ask_for_favours }
 
 		ai_will_do = {
@@ -106,21 +69,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_more_favours"
-			custom_effect_tooltip = GUA_UFC_3up
-			313 = {
-				add_extra_state_shared_building_slots = 2
-			}
-			311 = {
-				add_extra_state_shared_building_slots = 1
-			}
-			hidden_effect = {
-				add_to_variable = {
-					var = UFC_power
-					value = 3
-				}
-				CA_SET_UFC_VAR = yes
-			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 	}
@@ -131,14 +79,6 @@ focus_tree = {
 		x = -2
 		y = 3
 		cost = 6
-
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
-
 		relative_position_id = GUA_dont_depose_me
 
 		prerequisite = { focus = GUA_more_favours }
@@ -148,11 +88,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_attract_migrants"
-			add_ideas = {
-				GUA_migration_state
-			}
-		}
 	}
 
 	focus = {
@@ -164,13 +99,6 @@ focus_tree = {
 
 		relative_position_id = GUA_dont_depose_me
 
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
-
 		prerequisite = { focus = GUA_dont_depose_me }
 
 		ai_will_do = {
@@ -178,19 +106,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_fix_illiteracy"
-			custom_effect_tooltip = GUA_UFC_5up
-			swap_ideas = {
-				add_idea = GUA_illiteracy_2
-				remove_idea = GUA_illiteracy
-			}
-			hidden_effect = {
-				add_to_variable = {
-					var = UFC_power
-					value = 5
-				}
-				CA_SET_UFC_VAR = yes
-			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -203,13 +118,6 @@ focus_tree = {
 		y = 2
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
-
 		relative_position_id = GUA_dont_depose_me
 
 		prerequisite = { focus = GUA_fix_illiteracy }
@@ -219,12 +127,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_teachers_are_good"
-			swap_ideas = {
-				add_idea = GUA_illiteracy_3
-				remove_idea = GUA_illiteracy_2
-			}
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.05 }
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
@@ -237,13 +139,6 @@ focus_tree = {
 		y = 3
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
-
 		relative_position_id = GUA_dont_depose_me
 
 		prerequisite = { focus = GUA_teachers_are_good }
@@ -253,19 +148,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_american_scientists"
-			custom_effect_tooltip = GUA_UFC_5up
-			swap_ideas = {
-				add_idea = GUA_compensated_illiteracy
-				remove_idea = GUA_illiteracy_3
-			}
-			hidden_effect = {
-				add_to_variable = {
-					var = UFC_power
-					value = 5
-				}
-				CA_SET_UFC_VAR = yes
-			}
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 	}
@@ -278,10 +160,6 @@ focus_tree = {
 		cost = 6
 
 		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
 		}
 
 		relative_position_id = GUA_dont_depose_me
@@ -293,8 +171,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_border_posts"
-			add_stability = 0.1
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 	}
@@ -306,12 +182,6 @@ focus_tree = {
 		y = 2
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
 
 		relative_position_id = GUA_dont_depose_me
 
@@ -322,11 +192,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_clamp_down"
-			swap_ideas = {
-				add_idea = GUA_socialist_compensation_2
-				remove_idea = GUA_socialist_compensation
-			}
 		}
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY }
 	}
@@ -338,13 +203,6 @@ focus_tree = {
 		y = 3
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-			NOT = {
-				has_country_flag = GUA_death_letter_flag
-			}
-		}
-
 		relative_position_id = GUA_dont_depose_me
 
 		prerequisite = { focus = GUA_clamp_down }
@@ -354,8 +212,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_more_propaganda"
-			add_popularity = { ideology = radical_socialist popularity = -0.1 }
 		}
 	}
 
@@ -369,22 +225,12 @@ focus_tree = {
 		y = 5
 		cost = 6
 
-		available = {
-			has_country_flag = GUA_death_letter_flag
-		}
-
-		bypass = {
-			has_country_flag = GUA_death_letter_flag
-		}
-
-
 		ai_will_do = {
 			factor = 100
 		}
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_death_letter"
 		}
 	}
 
@@ -398,11 +244,6 @@ focus_tree = {
 
 		relative_position_id = GUA_death_letter
 
-		available = {
-			has_government = authoritarian_democrat
-			has_country_flag = GUA_orellana_wins_flag
-		}
-
 		prerequisite = { focus = GUA_death_letter }
 
 		ai_will_do = {
@@ -411,8 +252,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_orellana_holds_on"
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
 		}
 	}
 
@@ -423,10 +262,6 @@ focus_tree = {
 		y = 1
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-		}
-
 		relative_position_id = GUA_orellana_holds_on
 
 		prerequisite = { focus = GUA_orellana_holds_on }
@@ -437,11 +272,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_purge_dissidents"
-			add_popularity = { ideology = social_conservative popularity = -0.05 }
-			add_popularity = { ideology = radical_socialist popularity = -0.05 }
-			add_popularity = { ideology = social_democrat popularity = -0.05 }
-		}
 	}
 
 	focus = {
@@ -451,10 +281,6 @@ focus_tree = {
 		y = 1
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-		}
-
 		relative_position_id = GUA_orellana_holds_on
 
 		prerequisite = { focus = GUA_orellana_holds_on }
@@ -465,8 +291,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_clamp_down_more"
-			add_stability = 0.10
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 	}
@@ -478,10 +302,6 @@ focus_tree = {
 		y = 1
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-		}
-
 		relative_position_id = GUA_orellana_holds_on
 
 		prerequisite = { focus = GUA_orellana_holds_on }
@@ -492,23 +312,15 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_unlimited_presidency"
-			add_ideas = {
-				GUA_eternal_president_idea
-			}
 		}
 	}
 
 	focus = {
 		id = GUA_promote_economy
-		icon = GFX_GRU_german_industrial_miracle-4038
+		icon =
 		x = -1
 		y = 2
 		cost = 6
-
-		available = {
-			has_government = authoritarian_democrat
-		}
 
 		relative_position_id = GUA_orellana_holds_on
 
@@ -522,30 +334,16 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_promote_economy"
-			add_ideas = {
-				GUA_faster_building
-			}
-			add_tech_bonus = {
-				name = GUA_promote_economy
-				bonus = 1
-				uses = 1
-				category = industry
-			}
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	}
 
 	focus = {
 		id = GUA_promote_more_education
-		icon = GFX_goal_ENG_Highland_Research_Towns
+		icon = 
 		x = 1
 		y = 2
 		cost = 6
-
-		available = {
-			has_government = authoritarian_democrat
-		}
 
 		relative_position_id = GUA_orellana_holds_on
 
@@ -559,25 +357,7 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_promote_more_education"
-			add_ideas = {
-				GUA_orellana_loves_school
-			}
-			custom_effect_tooltip = GUA_UFC_12up
-			custom_effect_tooltip = GUA_literacy
-			hidden_effect = {
-				add_to_variable = {
-					var = UFC_power
-					value = 12
-				}
-				CA_SET_UFC_VAR = yes
-				remove_ideas = {
-					GUA_illiteracy
-					GUA_illiteracy_2
-					GUA_illiteracy_3
-					GUA_compensated_illiteracy
-				}
-			}
+
 		}
 	}
 
@@ -588,9 +368,6 @@ focus_tree = {
 		y = 3
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-		}
 
 		relative_position_id = GUA_orellana_holds_on
 
@@ -603,10 +380,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_stop_pestering_me"
-			add_popularity = { ideology = authoritarian_democrat popularity = 0.1 }
-			add_stability = 0.1
-			add_political_power = 50
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
@@ -618,10 +391,6 @@ focus_tree = {
 		y = 4
 		cost = 6
 
-		available = {
-			has_government = authoritarian_democrat
-		}
-
 		relative_position_id = GUA_orellana_holds_on
 
 		prerequisite = { focus = GUA_stop_pestering_me }
@@ -632,9 +401,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_on_the_right_path"
-			add_stability = 0.2
-			add_political_power = 100
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 	}
@@ -642,15 +408,10 @@ focus_tree = {
 
 	focus = {
 		id = GUA_ubico_wins
-		icon = GFX_goal_GUA_Ubico_Takes_the_Throne
+		icon = 
 		x = 5
 		y = 1
 		cost = 6
-
-		available = {
-			has_government = paternal_autocrat
-			has_country_flag = GUA_ubico_wins_flag
-		}
 
 		relative_position_id = GUA_death_letter
 
@@ -662,21 +423,16 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_ubico_wins"
-			add_popularity = { ideology = paternal_autocrat popularity = 0.1 }
 		}
 	}
 
-	focus = {
+	focus = 
+	{
 		id = GUA_more_UFC
 		icon = GFX_goal_USA_banana_republics
 		x = -2
 		y = 1
 		cost = 6
-
-		available = {
-			has_government = paternal_autocrat
-		}
 
 		relative_position_id = GUA_ubico_wins
 
@@ -688,19 +444,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_more_UFC"
-			hidden_effect = {
-				add_to_variable = {
-					var = UFC_power
-					value = 10
-				}
-				CA_SET_UFC_VAR = yes
-				country_event = {
-					id = guatemala.105 days = 30
-				}
-			}
-			custom_effect_tooltip = GUA_UFC_10up
-			add_stability = 0.2
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 	}
@@ -713,10 +456,6 @@ focus_tree = {
 		y = 1
 		cost = 6
 
-		available = {
-			has_government = paternal_autocrat
-		}
-
 		relative_position_id = GUA_ubico_wins
 
 		prerequisite = { focus = GUA_ubico_wins }
@@ -727,14 +466,6 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_execute_dissidents"
-			add_popularity = { ideology = authoritarian_democrat popularity = -0.1 }
-			add_popularity = { ideology = social_conservative popularity = -0.1 }
-			hidden_effect = {
-				country_event = {
-					id = guatemala.106 days = 60
-				}
-			}
 		}
 	}
 
@@ -745,10 +476,6 @@ focus_tree = {
 		y = 1
 		cost = 6
 
-		available = {
-			has_government = paternal_autocrat
-		}
-
 		relative_position_id = GUA_ubico_wins
 
 		prerequisite = { focus = GUA_ubico_wins }
@@ -759,84 +486,11 @@ focus_tree = {
 
 
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_no_syndies_escape"
-			add_popularity = { ideology = radical_socialist popularity = -0.1 }
-			add_popularity = { ideology = social_democrat popularity = -0.1 }
-			add_stability = 0.05
 		}
 		search_filters = { FOCUS_FILTER_STABILITY }
 	}
 
-	focus = {
-		id = GUA_napoleonic_ambitions
-		icon = GFX_goal_GUA_Ubico_Cult
-		x = -1
-		y = 2
-		cost = 6
 
-		available = {
-			has_government = paternal_autocrat
-		}
-
-		relative_position_id = GUA_ubico_wins
-
-		prerequisite = { focus = GUA_more_UFC }
-		prerequisite = { focus = GUA_execute_dissidents }
-		prerequisite = { focus = GUA_no_syndies_escape }
-
-
-		ai_will_do = {
-			factor = 100
-		}
-
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_napoleonic_ambitions"
-			add_ideas = {
-				GUA_ubico_dictator
-			}
-		}
-	}
-
-	focus = {
-		id = GUA_napoleonic_state
-		icon = GFX_goal_GUA_Napoleonic_Military_State
-		x = 1
-		y = 2
-		cost = 6
-
-		available = {
-			has_government = paternal_autocrat
-		}
-
-		relative_position_id = GUA_ubico_wins
-
-		prerequisite = { focus = GUA_more_UFC }
-		prerequisite = { focus = GUA_execute_dissidents }
-		prerequisite = { focus = GUA_no_syndies_escape }
-
-
-		ai_will_do = {
-			factor = 100
-		}
-
-
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GUA_napoleonic_state"
-			add_ideas = {
-				GUA_military_state
-			}
-			hidden_effect = {
-				remove_ideas = {
-					GUA_illiteracy
-					GUA_illiteracy_2
-					GUA_illiteracy_3
-					GUA_compensated_illiteracy
-				}
-			}
-			custom_effect_tooltip = GUA_literacy
-		}
-	}
 
 	focus = {
 		id = GUA_better_constitution

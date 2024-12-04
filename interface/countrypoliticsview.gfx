@@ -664,5 +664,8 @@ spriteTypes = {
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
-	
+		spriteType = {
+		name = "GFX_ideology_jeffersonian_fascism"
+		texturefile = "gfx/interface/ideologies/jeffersonian_fascism_group.png"
+	}
 }
