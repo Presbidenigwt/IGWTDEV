@@ -1,16 +1,15 @@
-characters={
-
-	SLA_donald_defreeze = {
-		name = SLA_donald_defreeze
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/JFR/donald_defreeze.dds
-			}
-		}
-		country_leader = {
-			traits = { }
-			ideology = stratocratic_maoism
-			expire = "2060.1.1.1"
-		}
-	}
+characters = {
+    SLA_donald_defreeze = {
+        name = SLA_donald_defreeze
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SLA/donald_defreeze.png"
+            }
+        }
+        country_leader = {
+            ideology = stratocratic_maoism
+            traits = { }
+            desc = STG_frank_sturgis_desc
+        }
     }
+}

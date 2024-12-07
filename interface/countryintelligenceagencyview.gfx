@@ -51,8 +51,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/upgrade_button_available.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/focus_ongoing_mask2.dds"
-			animationtexturefile = "gfx/interface/focus_ongoing_texture.dds" 	# <- the animated file
+			animationmaskfile = "gfx/interface/focusview/titlebar/focus_ongoing_mask2.dds"
+			animationtexturefile = "gfx/interface/focusview/titlebar/focus_ongoing_texture.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = yes			# yes or no ;)
 			animationtime = 20.0				# in seconds
@@ -69,8 +69,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/upgrade_button_completed.dds"
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"	
 		animation = {
-			animationmaskfile = "gfx/interface/focus_completed_mask.dds"
-			animationtexturefile = "gfx/interface/focus_completed_texture.dds" 	# <- the animated file
+			animationmaskfile = "gfx/interface/focusview/titlebar/focus_completed_mask.dds"
+			animationtexturefile = "gfx/interface/focusview/titlebar/focus_completed_texture.dds" 	# <- the animated file
 			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = yes			# yes or no ;)
 			animationtime = 26.0				# in seconds
@@ -404,70 +404,137 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_AFS_Agency"
-		texturefile = "gfx/interface/operatives/agencies/AFS_Agency.tga"
+		name = "GFX_intelligence_agency_logo_eth_smie"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_eth_smie.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_LDS_Agency"
-		texturefile = "gfx/interface/operatives/agencies/LDS_Agency.tga"
+		name = "GFX_intelligence_agency_logo_eth_crid"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_eth_crid.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_Klan_Agency"
-		texturefile = "gfx/interface/operatives/agencies/Klan_Agency.tga"
+		name = "GFX_intelligence_agency_logo_eth_fetno_derash"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_eth_fetno_derash.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_Prisoner_Agency"
-		texturefile = "gfx/interface/operatives/agencies/Prisoner_Agency.tga"
+		name = "GFX_intelligence_agency_logo_federal_police_intelligence"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_federal_police_intelligence.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_Pacific_Fleet_Agency"
-		texturefile = "gfx/interface/operatives/agencies/Pacific_Fleet_Agency.tga"
+		name = "GFX_intelligence_agency_logo_SWI_swi_buero_ha"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_SWI_swi_buero_ha.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_Atomwaffen_Agency"
-		texturefile = "gfx/interface/operatives/agencies/Atomwaffen_Agency.tga"
+		name = "GFX_intelligence_agency_logo_ICE_logreglan"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_ICE_logreglan.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_Gadsden_Agency"
-		texturefile = "gfx/interface/operatives/agencies/Gadsden_Agency.tga"
+		name = "GFX_intelligence_agency_logo_DEN_sipo"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_DEN_sipo.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_FBI_Agency"
-		texturefile = "gfx/interface/operatives/agencies/FBI_Agency.tga"
+		name = "GFX_intelligence_agency_logo_NOR_fascism_intelligence"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_NOR_fascism_intelligence.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_Communist_PRA_Agency"
-		texturefile = "gfx/interface/operatives/agencies/Communist_PRA_Agency.tga"
+		name = "GFX_intelligence_agency_logo_NOR_XU"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_NOR_XU.dds"
 		noOfFrames = 2
 	}
 
 	spriteType = {
-		name = "GFX_intelligence_agency_CIA_AGENCY"
-		texturefile = "gfx/interface/operatives/agencies/CIA_AGENCY.tga"
+		name = "GFX_intelligence_agency_logo_NOR_historical_intelligence"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_NOR_historical_intelligence.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_CAN_royal_canadian_mounted_police"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_CAN_royal_canadian_mounted_police.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_CHL_policia_de_investigaciones_de_chile"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_CHL_policia_de_investigaciones_de_chile.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_BRA_communist"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_BRA_communist.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_BRA_neutrality"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_BRA_neutrality.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_ARG_intelligence"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_ARG_intelligence.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_AUS_dsn"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_AUS_dsn.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_AUS_evidenzbureau"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_AUS_evidenzbureau.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_HUN_AVH"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_HUN_AVH.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_HUN_IH"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_HUN_IH.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_GER_stasi"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_GER_stasi.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_COG_snip"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_COG_snip.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_COG_anr"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_COG_anr.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_BEL_vsse"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_BEL_vsse.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_BEL_giss"
+		texturefile = "gfx/interface/operatives/agencies/intelligence_agency_logo_BEL_giss.dds"
 		noOfFrames = 2
 	}
 
-	spriteType = {
-		name = "GFX_intelligence_agency_Black_Panther_Agency"
-		texturefile = "gfx/interface/operatives/agencies/Black_Panther_Agency.tga"
-		noOfFrames = 2
-	}
+
+
 	
 	#generic
 	spriteType = {
@@ -515,7 +582,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/agencies/agency_logo_generic_9.dds"
 		noOfFrames = 2
 	}
-
 
 	#------------------- UPGRADE ICON FRAMES -------------------------------
 	

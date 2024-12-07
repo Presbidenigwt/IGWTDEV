@@ -3,7 +3,7 @@ characters = {
         name = JFR_willis_carto
         portraits = {
             civilian = {
-                large = "gfx/leaders/JFR/willis_carto.dds"
+                large = "gfx/leaders/JFR/willis_carto.png"
             }
         }
         country_leader = {

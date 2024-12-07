@@ -173,6 +173,26 @@ spriteTypes = {
 		name = "GFX_autonomy_personal_union_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_personal_union_puppet.dds"
 	}
+
+	spriteType = {
+		name = "GFX_autonomy_aat_defense_council_member_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_austro_hungarian_subject_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_austro_hungarian_vassal_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_volkskommissariat_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_volkskommissariat_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_autonomy_eu_member_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_eu_member_icon.dds"
+	}
 	
 	#-------------
 
@@ -425,6 +445,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_entry_bg_4"
+		texturefile = "gfx/interface/idea_entry_bg_4.dds"
+	}
+
+	spriteType = {
 		name = "GFX_pol_factions_strip"
 		texturefile = "gfx\\interface\\pol_factions_strip.tga"
 		noOfFrames = 4
@@ -455,28 +480,33 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_neutrality_group"
-		texturefile = "gfx/interface/ideologies/neutrality_group.dds"
+		name = "GFX_ideology_accelerationist_nazism"
+		texturefile = "gfx/interface/ideologies/accelerationist_nazism_group.png"
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_communism_group"
-		texturefile = "gfx/interface/ideologies/communism_group.dds"
+		name = "GFX_ideology_junta"
+		texturefile = "gfx/interface/ideologies/junta_group.png"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_fascism_group"
-		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+		name = "GFX_ideology_jeffersonian_fascism"
+		texturefile = "gfx/interface/ideologies/jeffersonian_fascism_group.png"
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+		name = "GFX_ideology_stratocratic_maoism"
+		texturefile = "gfx/interface/ideologies/stratocratic_maoism_group.png"
 	}
 
 	spriteType = {
-		name = "GFX_ideology_anarchism"
-		texturefile = "gfx/interface/ideologies/anarchism.dds"
+		name = "GFX_ideology_communist_cult"
+		texturefile = "gfx/interface/ideologies/communist_cult_group.png"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_esoteric_nazism"
+		texturefile = "gfx/interface/ideologies/esoteric_nazism_group.png"
 	}
 	
 	spriteType = {
@@ -664,8 +694,5 @@ spriteTypes = {
 		alwaystransparent = yes
 		effectFile = "gfx/FX/buttonstate_blendframes.lua"
 	}
-		spriteType = {
-		name = "GFX_ideology_jeffersonian_fascism"
-		texturefile = "gfx/interface/ideologies/jeffersonian_fascism_group.png"
-	}
+	
 }

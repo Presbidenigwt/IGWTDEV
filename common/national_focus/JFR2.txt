@@ -1,130 +1,334 @@
 focus_tree = {
 	id = JFR2
+	continuous_focus_position = { x = -40 y = 1050 } 
 	country = {
 		factor = 0
 		modifier = {
+			add = 10
 			tag = JFR
 		}
 	}
-    default = no
-	   focus = {
-		id = rally_the_patriots
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 10
-		y = 0
+	focus = {
+		id = JFR_and_the_delaware_was_crossed
+		icon = GFX_goal_unknown
+		x = 15
+		y = 9
+		cost = 5
+	}
+	focus = {
+		id = JFR_encourage_industrial_revival
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 3
+		prerequisite = { focus = JFR_what_little_remains  }
 		completion_reward = {
+			set_building_level = {
+			    type = infrastructure
+			    level = 2
+			    instant_build = yes
+			}
 		}
 	}
-	 focus = {
-		id = begin_the_gears_of_industry
-		icon = focus_USA_flag_torch
-		cost = 5.00
+	focus = {
+		id = JFR_support_new_american_worker_corp
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 2
+		prerequisite = { focus = JFR_roll_in_corporatism  }
+		mutually_exclusive = { focus = JFR_put_the_legion_to_work  }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = jfr_ind
+			    add_idea = jfr_ind_w
+			}
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = JFR_what_little_remains
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 2
+		prerequisite = { focus = JFR_from_graveyard_to_grail  }
+		select_effect = {
+add_timed_idea = {
+    idea = scavenge 
+    days = 180
+}
+}
+	}
+	focus = {
+		id = JFR_put_the_legion_to_work
+		icon = GFX_goal_unknown
 		x = 6
-		y = 1
-		prerequisite = {
-			focus = rally_the_patriots
-		}
+		y = 5
+		prerequisite = { focus = JFR_roll_in_corporatism  }
 		completion_reward = {
+			add_manpower -600
+			swap_ideas = {
+			    remove_idea = jfr_ind
+			    add_idea = jfr_ind_l
+			}
 		}
 	}
-		 focus = {
-		id = roll_in_coprate_state
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 4
-		y = 2
-		prerequisite = {
-			focus = begin_the_gears_of_industry
-		}
-		completion_reward = {
-		}
-	}
-			 focus = {
-		id = every_worker_a_proud_worker
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 4
+	focus = {
+		id = JFR_from_graveyard_to_grail
+		icon = GFX_goal_unknown
+		x = 9
 		y = 3
-		prerequisite = {
-			focus = roll_in_coprate_state
-		}
+		prerequisite = { focus = JFR_and_so_begins_the_revolution  }
 		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = construction_tech
+			}
 		}
 	}
-		 focus = {
-		id = giving_whats_due
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 8
-		y = 2
-		prerequisite = {
-			focus = begin_the_gears_of_industry
-		}
-		completion_reward = {
-		}
-	}
-			focus = {
-		id = create_health_corp
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 8
+	focus = {
+		id = JFR_roll_in_corporatism
+		icon = GFX_goal_unknown
+		x = 7
 		y = 4
-		prerequisite = {
-			focus = patriotic_housing_plan
-		}
+		cost = 2
+		prerequisite = { focus = JFR_from_graveyard_to_grail  }
 		completion_reward = {
+			add_ideas = american_corporatism
+			add_stability = 1.5
 		}
 	}
-			focus = {
-		id = keeping_americans_healthy_and_fed
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 4
+	focus = {
+		id = JFR_and_so_begins_the_revolution
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 1
+		completion_reward = {
+			add_ideas = american_rev
+		}
+	}
+	focus = {
+		id = JFR_further_army_reform
+		icon = GFX_goal_unknown
+		x = 21
 		y = 3
-		prerequisite = {
-			focus = every_worker_a_proud_worker
-		}
-		completion_reward = {
-		}
+		cost = 2
+		prerequisite = { focus = JFR_and_so_begins_the_revolution  }
 	}
-			focus = {
-		id = patriotic_housing_plan
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 8
-		y = 3
-		prerequisite = {
-			focus = giving_whats_due
-		}
-		completion_reward = {
-		}
-	}
-				focus = {
-		id = form_the_american_labour_front
-		icon = focus_USA_flag_torch
-		cost = 5.00
-		x = 4
+	focus = {
+		id = JFR_guided_by_god_and_nation
+		icon = GFX_goal_unknown
+		x = 15
 		y = 4
-		prerequisite = {
-			focus = keeping_americans_healthy_and_fed
-		}
-		mutually_exclusive = { focus = create_health_corp }
+		cost = 2
+		prerequisite = { focus = JFR_and_so_begins_the_revolution  }
 		completion_reward = {
+			add_ideas = nation_and_god
 		}
 	}
-			 focus = {
-		id = securing_the_state_apparatus
-		icon = focus_USA_flag_torch
-		cost = 5.00
+	focus = {
+		id = JFR_heed_the_word_of_jefferson
+		icon = GFX_goal_unknown
 		x = 14
-		y = 1
-		prerequisite = {
-			focus = rally_the_patriots
+		y = 5
+		cost = 2
+		prerequisite = { focus = JFR_guided_by_god_and_nation  }
+	}
+	focus = {
+		id = JFR_answerwashingtonscall
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 2
+		prerequisite = { focus = JFR_guided_by_god_and_nation  }
+		completion_reward = {
+			country_event = {
+			id = jfr.9
+			}
 		}
+	}
+	focus = {
+		id = JFR_expel_leeches_of_power
+		icon = GFX_goal_unknown
+		x = 16
+		y = 6
+		prerequisite = { focus = JFR_answerwashingtonscall  }
+		completion_reward = {
+			add_manpower = -650
+		}
+	}
+	focus = {
+		id = JFR_only_america_now_and_always
+		icon = GFX_goal_unknown
+		x = 14
+		y = 6
+		prerequisite = { focus = JFR_heed_the_word_of_jefferson  }
+	}
+	focus = {
+		id = JFR_america_first_forever
+		icon = GFX_goal_unknown
+		x = 14
+		y = 7
+		cost = 3
+		prerequisite = { focus = JFR_expel_leeches_of_power  } prerequisite = { focus = JFR_only_america_now_and_always  }
+	}
+	focus = {
+		id = JFR_allmustsingcolumbiastune
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 3
+		prerequisite = { focus = JFR_expel_leeches_of_power  } prerequisite = { focus = JFR_only_america_now_and_always  }
+		mutually_exclusive = { focus = JFR_america_first_forever  }
+	}
+	focus = {
+		id = JFR_restore_our_agricultural_might
+		icon = GFX_goal_unknown
+		x = 11
+		y = 6
+		cost = 2
+		prerequisite = { focus = JFR_encourage_industrial_revival  }
+		completion_reward = {
+			add_timed_idea = {
+			    idea = JFR_agri
+			    days = 500
+			}
+		}
+	}
+	focus = {
+		id = JFR_a_hand_to_those_in_need
+		icon = GFX_goal_unknown
+		x = 7
+		y = 6
+		cost = 3
+		prerequisite = { focus = JFR_support_new_american_worker_corp  focus = JFR_put_the_legion_to_work  }
+		completion_reward = {
+			remove_ideas = rad_effect
+		}
+	}
+	focus = {
+		id = JFR_over_there
+		icon = GFX_goal_unknown
+		x = 26
+		y = 1
+		cost = 2
+	}
+
+	#Better dead than red
+	focus = {
+		id = JFR_better_dead_than_red
+		icon = GFX_goal_unknown
+		x = 24
+		y = 2
+		cost = 3
+		prerequisite = { focus = JFR_over_there  }
+		completion_reward = {
+			declare_war_on = {
+			    target = SLA
+			    type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = JFR_remove_the_war_mongers
+		icon = GFX_goal_unknown
+		x = 28
+		y = 2
+		cost = 2
+		prerequisite = { focus = JFR_over_there  }
+		completion_reward = {
+			declare_war_on = {
+			    target = STG
+			    type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = JFR_death_to_the_bandits
+		icon = GFX_goal_unknown
+		x = 25
+		y = 3
+		cost = 2
+		prerequisite = { focus = JFR_over_there  }
+		completion_reward = {
+			declare_war_on = {
+			    target = HAG
+			    type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = JFR_no_room_for_conservatism
+		icon = GFX_goal_unknown
+		x = 27
+		y = 3
+		cost = 3
+		prerequisite = { focus = JFR_over_there  }
+		completion_reward = {
+			declare_war_on = {
+			    target = REG
+			    type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = JFR_utilize_the_legions
+		icon = GFX_goal_unknown
+		x = 20
+		y = 4
+		cost = 2
+		prerequisite = { focus = JFR_further_army_reform  }
 		completion_reward = {
 		}
 	}
+	focus = {
+		id = JFR_rifles_for_liberation
+		icon = GFX_goal_unknown
+		x = 22
+		y = 4
+		cost = 2
+		prerequisite = { focus = JFR_further_army_reform  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+			    type = infantry_equipment
+			    amount = 1000
+			    producer = USA
+			}
+		}
 	}
-	
-	
+	focus = {
+		id = JFR_patriotsoneandall
+		icon = GFX_goal_unknown
+		x = 22
+		y = 5
+		cost = 2
+		prerequisite = { focus = JFR_rifles_for_liberation  }
+		completion_reward = {
+			swap_ideas = {
+			    remove_idea = JFR_new_contenental_army
+			    add_idea = JFR_new_contenental_army_2
+			}
+		}
+	}
+	focus = {
+		id = JFR_a_ready_army
+		icon = GFX_goal_unknown
+		x = 20
+		y = 5
+		cost = 2
+		prerequisite = { focus = JFR_utilize_the_legions  }
+	}
+	focus = {
+		id = JFR_the_columbian_crusader
+		icon = GFX_goal_unknown
+		x = 21
+		y = 6
+		cost = 4
+		prerequisite = { focus = JFR_patriotsoneandall  } prerequisite = { focus = JFR_a_ready_army  }
+	}
+
+}

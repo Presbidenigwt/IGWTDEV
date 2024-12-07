@@ -4,7 +4,7 @@ characters={
 		name = HAG_sonny_barger
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/HAG/sonny_barger.dds
+				large = "gfx/leaders/HAG/sonny_barger.png
 			}
 		}
 		country_leader = {

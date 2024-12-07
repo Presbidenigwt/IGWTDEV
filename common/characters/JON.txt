@@ -1,0 +1,15 @@
+characters = {
+    JON_jim_jones = {
+        name = JON_jim_jones
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/JON/jim_jones.png"
+            }
+        }
+        country_leader = {
+            ideology = communist_cult
+            traits = { }
+            desc = JON_jim_jones_desc
+        }
+    }
+}

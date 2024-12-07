@@ -5,7 +5,9 @@ ideologies = {
 		types = {
 					
 			communism = {
-			}	
+			}
+			communist_cult = {
+			}				
 			maoism = {
 			}
 			nazbol = {
@@ -171,8 +173,6 @@ ideologies = {
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 5
 		}
-
-		can_collaborate = no
 		
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
@@ -278,8 +278,6 @@ ideologies = {
 			can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
-
-		can_collaborate = no
 		
 		modifiers = {
 			generate_wargoal_tension = 0.45
@@ -353,7 +351,6 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour = yes 
 	}
 
-		can_collaborate = no
 		
 		modifiers = {
 			generate_wargoal_tension = 0.45
@@ -403,8 +400,6 @@ ideologies = {
 			can_puppet = yes
 		}
 
-		can_collaborate = yes
-
 		modifiers = {
 			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 10.0
@@ -426,7 +421,7 @@ ideologies = {
 
 		types = {
 
-			fascism_ideology = {
+			fascism = {
 			}
 
 			falangism = {
@@ -455,8 +450,6 @@ ideologies = {
 			can_puppet = yes
 		}
 
-		can_collaborate = yes
-
 		modifiers = {
 			justify_war_goal_when_in_major_war_time = -0.80
 			civilian_intel_to_others = 15.0
@@ -478,8 +471,9 @@ ideologies = {
 			
 			nazism {
 			}
-			
 			accelerationist_nazism {
+			}
+			esoteric_nazism {
 			}
 		
 		}

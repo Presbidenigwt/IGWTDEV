@@ -1,0 +1,24 @@
+capital = 9
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "2019.4.2"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	communism	= 60
+	authdem = 10
+	natsoc = 30
+}
+
+### Country Leaders ###
+recruit_character = JON_jim_jones
+
+### Generals ###

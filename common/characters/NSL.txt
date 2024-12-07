@@ -1,17 +1,15 @@
-characters={
-
-	JFR_joseph_tommasi = {
-		name = JFR_joseph_tommasi
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/JFR/joseph_tommasi.dds
-			}
-		}
-		country_leader = {
-			traits = { }
-			ideology = accelerationist_nazism
-			expire = "2060.1.1.1"
-			id = -1
-		}
-	}
+characters = {
+    NSL_joseph_tommasi = {
+        name = NSL_joseph_tommasi
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/NSL/joseph_tommasi.png"
+            }
+        }
+        country_leader = {
+            ideology = accelerationist_nazism
+            traits = { }
+            desc = NSL_joseph_tommasi
+        }
     }
+}

@@ -3,7 +3,7 @@ characters = {
         name = MAN_charles_manson
         portraits = {
             civilian = {
-                large = "gfx/leaders/MAN/charles_manson.dds"
+                large = "gfx/leaders/MAN/charles_manson.png"
             }
         }
         country_leader = {

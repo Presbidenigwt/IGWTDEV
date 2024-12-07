@@ -3,7 +3,7 @@ characters = {
         name = STG_frank_sturgis
         portraits = {
             civilian = {
-                large = "gfx/leaders/STG/frank_stugrgis.dds"
+                large = "gfx/leaders/STG/frank_sturgis.png"
             }
         }
         country_leader = {
