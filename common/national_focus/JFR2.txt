@@ -41,9 +41,9 @@ focus_tree = {
 		completion_reward = {
 			swap_ideas = {
 			    remove_idea = jfr_ind
-			    add_idea = jfr_ind_w
+			    add_idea = jfr_ind_worker_buff
 			}
-			add_stability = 0.1
+			add_stability = 0.15
 		}
 	}
 	focus = {
@@ -70,7 +70,7 @@ add_timed_idea = {
 			add_manpower -600
 			swap_ideas = {
 			    remove_idea = jfr_ind
-			    add_idea = jfr_ind_l
+			    add_idea = jfr_legion_buff
 			}
 		}
 	}
@@ -97,7 +97,7 @@ add_timed_idea = {
 		cost = 2
 		prerequisite = { focus = JFR_from_graveyard_to_grail  }
 		completion_reward = {
-			add_ideas = american_corporatism
+			add_ideas = JFR_american_corporatism
 			add_stability = 1.5
 		}
 	}
@@ -127,7 +127,7 @@ add_timed_idea = {
 		cost = 2
 		prerequisite = { focus = JFR_and_so_begins_the_revolution  }
 		completion_reward = {
-			add_ideas = nation_and_god
+			add_ideas = JFR_nation_and_god
 		}
 	}
 	focus = {
